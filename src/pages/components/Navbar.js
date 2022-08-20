@@ -28,7 +28,7 @@ export default function Navbar() {
                                    <MDBNavbarLink href='about'>About Us</MDBNavbarLink>
                               </MDBNavbarItem>
                               <MDBNavbarItem className='mx-5'>
-                                   <MDBNavbarLink href='product'>Products</MDBNavbarLink>
+                                   <MDBNavbarLink href='products'>Products</MDBNavbarLink>
                               </MDBNavbarItem>
                               <MDBNavbarItem className='mx-5'>
                                    <MDBNavbarLink href='contact'>Contact</MDBNavbarLink>

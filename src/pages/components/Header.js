@@ -1,4 +1,4 @@
-import { MDBBtn, MDBContainer, MDBDropdown, MDBDropdownItem, MDBDropdownLink, MDBDropdownMenu, MDBDropdownToggle, MDBNavbar, MDBNavbarBrand } from 'mdb-react-ui-kit'
+import { MDBContainer, MDBDropdown, MDBDropdownItem, MDBDropdownLink, MDBDropdownMenu, MDBDropdownToggle, MDBNavbar, MDBNavbarBrand } from 'mdb-react-ui-kit'
 import React from 'react'
 
 export default function Header() {
@@ -6,7 +6,7 @@ export default function Header() {
           <>
                <MDBNavbar light bgColor='light'>
                     <MDBContainer>
-                         <MDBNavbarBrand href='#'>
+                         <MDBNavbarBrand href='/'>
                               <img
                                    src='logo.png'
                                    height='30'

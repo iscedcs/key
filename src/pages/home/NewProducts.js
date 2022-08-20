@@ -1,58 +1,64 @@
 import React from 'react'
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import SwiperCore, { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
-import { MDBContainer } from 'mdb-react-ui-kit';
+import { MDBContainer, MDBTypography } from 'mdb-react-ui-kit';
 import Card from '../components/Card';
 
 export default function NewProducts() {
+     SwiperCore.use([Autoplay])
      return (
           <>
                <MDBContainer className='pt-5'>
+               <MDBTypography tag='h3' className='text-center mb-3' >Latest Products</MDBTypography>
                     <Swiper
-                         modules={[Navigation, Pagination, Scrollbar, A11y]}
+                         modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                          spaceBetween={50}
                          slidesPerView={3}
-                         navigation
+                         // navigation
+                         autoplay={{ delay: 3000 }}
                          pagination={{ clickable: true }}
                          breakpoints={{
                               0: {
                                    slidesPerView: 1,
                               },
-                              768: {
+                              426: {
                                    slidesPerView: 2,
                               },
-                              1200: {
+                              769: {
                                    slidesPerView: 3,
+                              },
+                              1200: {
+                                   slidesPerView: 4,
                               },
                          }}
                     >
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card Name={'Paul'} />
+                              <Card name={'one'} />
                          </SwiperSlide>
                     </Swiper>
                </MDBContainer>
