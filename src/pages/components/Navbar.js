@@ -19,18 +19,18 @@ export default function Navbar() {
 
                     <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample' className='justify-content-center py-3'>
                          <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
-                              <MDBNavbarItem>
-                                   <MDBNavbarLink active aria-current='page' href='#'>
+                              <MDBNavbarItem className='mx-5'>
+                                   <MDBNavbarLink active aria-current='page' href=''>
                                         Home
                                    </MDBNavbarLink>
                               </MDBNavbarItem>
-                              <MDBNavbarItem>
+                              <MDBNavbarItem className='mx-5'>
                                    <MDBNavbarLink href='about'>About Us</MDBNavbarLink>
                               </MDBNavbarItem>
-                              <MDBNavbarItem>
+                              <MDBNavbarItem className='mx-5'>
                                    <MDBNavbarLink href='product'>Products</MDBNavbarLink>
                               </MDBNavbarItem>
-                              <MDBNavbarItem>
+                              <MDBNavbarItem className='mx-5'>
                                    <MDBNavbarLink href='contact'>Contact</MDBNavbarLink>
                               </MDBNavbarItem>
                          </MDBNavbarNav>

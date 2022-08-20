@@ -8,7 +8,7 @@ export default function Header() {
                     <MDBContainer>
                          <MDBNavbarBrand href='#'>
                               <img
-                                   src='https://mdbootstrap.com/img/logo/mdb-transaprent-noshadows.webp'
+                                   src='logo.png'
                                    height='30'
                                    alt=''
                                    loading='lazy'

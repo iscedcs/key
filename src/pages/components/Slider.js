@@ -3,7 +3,7 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCarouselElement } fr
 
 export default function App() {
      return (
-          <MDBCarousel showIndicators showControls>
+          <MDBCarousel showControls={true} interval={3000} >
                <MDBCarouselInner>
                     <MDBCarouselItem className='active'>
                          <MDBCarouselElement src='https://mdbootstrap.com/img/new/slides/041.webp' alt='...' />
