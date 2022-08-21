@@ -7,7 +7,7 @@ export default function About() {
                <MDBContainer className='pt-4'>
                     <MDBTypography tag='h3' className='text-center mb-3' >About Us</MDBTypography>
                     <MDBRow className=''>
-                         <MDBCol size='6' sm={'12'} md={'12'} xl={'6'} xxl={'6'} >
+                         <MDBCol sm={'12'} md={'12'} xl={'6'} xxl={'6'} >
                               <div className="ratio ratio-16x9">
                                    <iframe
                                         src="https://www.youtube.com/embed/vlDzYIIOYmM"
@@ -16,7 +16,7 @@ export default function About() {
                                    ></iframe>
                               </div>
                          </MDBCol>
-                         <MDBCol size='6' sm={'12'} md={'12'} xl={'6'} xxl={'6'} >
+                         <MDBCol sm={'12'} md={'12'} xl={'6'} xxl={'6'} >
                               <MDBCard>
                                    <MDBCardBody>
                                         <MDBCardText>
