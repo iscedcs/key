@@ -18,29 +18,29 @@ export default function Products() {
                     <MDBRow className='mb-3'>
                          <MDBCol lg='3' md='12' className='pe-4'>
                               <MDBTable bordered className='sticky-lg-top'>
-                                   <MDBTableHead dark>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Products</th>
+                                             <th className='text-white' scope='col'>Products</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
-                                        <tr className='table-primary'>
-                                             <td>Product Type 1</td>
+                                        <tr>
+                                             <td><a className='text-black' href='#one'>Product Type 1</a></td>
                                         </tr>
                                         <tr>
-                                             <td>Product Type 2</td>
+                                             <td><a className='text-black' href='#two'>Product Type 2</a></td>
                                         </tr>
                                         <tr>
-                                             <td>Product Type 3</td>
+                                             <td><a className='text-black' href='#three'>Product Type 3</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>
                          <MDBCol lg='9' md='12'>
-                              <MDBTable className='mb-4'>
-                                   <MDBTableHead dark>
+                              <MDBTable className='mb-4' id='one'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Product Type One</th>
+                                             <th className='text-white' scope='col'>Product Type One</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
@@ -252,10 +252,10 @@ export default function Products() {
                                         </MDBRow>
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4'>
-                                   <MDBTableHead dark>
+                              <MDBTable className='mb-4' id='two'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Product Type Two</th>
+                                             <th className='text-white' scope='col'>Product Type Two</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
@@ -373,10 +373,10 @@ export default function Products() {
                                         </MDBRow>
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4'>
-                                   <MDBTableHead dark>
+                              <MDBTable className='mb-4' id='three'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Product Type Three</th>
+                                             <th className='text-white' scope='col'>Product Type Three</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>

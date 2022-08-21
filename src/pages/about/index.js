@@ -18,29 +18,29 @@ export default function About() {
                     <MDBRow className='mb-3'>
                          <MDBCol lg='3' md='12' className='pe-4'>
                               <MDBTable bordered className='sticky-lg-top'>
-                                   <MDBTableHead dark>
+                                   <MDBTableHead  className='bg-black'>
                                         <tr>
-                                             <th scope='col'>About Us</th>
+                                             <th className='text-white' scope='col'>About Us</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
-                                        <tr className='table-primary'>
-                                             <td >Company Profile</td>
+                                        <tr>
+                                             <td><a className='text-black' href='#profile'>Company Profile</a></td>
                                         </tr>
                                         <tr>
-                                             <td>Company Culture</td>
+                                             <td><a className='text-black' href='#culture'>Company Culture</a></td>
                                         </tr>
                                         <tr>
-                                             <td>Partners</td>
+                                             <td><a className='text-black' href='#partners'>Partners</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>
                          <MDBCol lg='9' md='12'>
-                              <MDBTable className='mb-4'>
-                                   <MDBTableHead dark>
+                              <MDBTable className='mb-4' id='profile'>
+                                   <MDBTableHead  className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Company Profile</th>
+                                             <th className='text-white' scope='col'>Company Profile</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
@@ -55,10 +55,10 @@ export default function About() {
                                         Id amet commodo officia nisi id duis amet irure sint culpa consectetur cillum dolor. Id sunt elit ex do occaecat sunt est do nostrud culpa sit mollit reprehenderit ad. Velit non aliqua elit adipisicing excepteur incididunt dolor non tempor culpa nulla elit in commodo. Dolore cillum voluptate aliquip tempor officia. Id tempor non consectetur esse culpa consequat non tempor. Adipisicing occaecat quis veniam qui.
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4'>
-                                   <MDBTableHead dark>
+                              <MDBTable className='mb-4' id='culture'>
+                                   <MDBTableHead  className='bg-black'>
                                         <tr>
-                                             <th scope='col'>Company Culture</th>
+                                             <th className='text-white' scope='col'>Company Culture</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
@@ -73,7 +73,7 @@ export default function About() {
                                         Id amet commodo officia nisi id duis amet irure sint culpa consectetur cillum dolor. Id sunt elit ex do occaecat sunt est do nostrud culpa sit mollit reprehenderit ad. Velit non aliqua elit adipisicing excepteur incididunt dolor non tempor culpa nulla elit in commodo. Dolore cillum voluptate aliquip tempor officia. Id tempor non consectetur esse culpa consequat non tempor. Adipisicing occaecat quis veniam qui.
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4'>
+                              <MDBTable className='mb-4' id='partners'>
                                    <MDBTableHead dark>
                                         <tr>
                                              <th scope='col'>Partners</th>
