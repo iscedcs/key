@@ -12,7 +12,7 @@ export default function About() {
                                    <iframe
                                         src="https://www.youtube.com/embed/vlDzYIIOYmM"
                                         title="YouTube video"
-                                        allowfullscreen
+                                        allowFullScreen
                                    ></iframe>
                               </div>
                          </MDBCol>

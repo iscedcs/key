@@ -13,7 +13,7 @@ export default function NewProducts() {
      return (
           <>
                <MDBContainer className='pt-5'>
-               <MDBTypography tag='h3' className='text-center mb-3' >Latest Products</MDBTypography>
+               <MDBTypography tag='h3' className='text-center mb-3 text-black' >Latest Products</MDBTypography>
                     <Swiper
                          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                          spaceBetween={50}
@@ -61,6 +61,7 @@ export default function NewProducts() {
                               <Card name={'one'} />
                          </SwiperSlide>
                     </Swiper>
+                    
                </MDBContainer>
           </>
      )

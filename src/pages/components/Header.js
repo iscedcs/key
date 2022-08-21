@@ -13,9 +13,10 @@ export default function Header() {
                                    alt=''
                                    loading='lazy'
                               />
+                              
                          </MDBNavbarBrand>
                          <MDBDropdown>
-                              <MDBDropdownToggle>Language</MDBDropdownToggle>
+                              <MDBDropdownToggle className='bg-black'>English</MDBDropdownToggle>
                               <MDBDropdownMenu>
                                    <MDBDropdownItem>
                                         <MDBDropdownLink href="#">English</MDBDropdownLink>

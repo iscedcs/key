@@ -4,7 +4,7 @@ import { MDBNavbar, MDBContainer, MDBIcon, MDBNavbarNav, MDBNavbarItem, MDBNavba
 export default function Navbar() {
      const [showNavCentred, setShowNavCentred] = useState(false);
      return (
-          <MDBNavbar expand='lg' dark bgColor='dark'>
+          <MDBNavbar expand='lg' dark bgColor='black'>
                <MDBContainer fluid>
                     <MDBNavbarToggler
                          type='button'
@@ -17,12 +17,10 @@ export default function Navbar() {
                          <MDBIcon icon='bars' fas />
                     </MDBNavbarToggler>
 
-                    <MDBCollapse navbar show={showNavCentred} center id='navbarCenteredExample' className='justify-content-center py-3'>
+                    <MDBCollapse navbar show={showNavCentred}  id='navbarCenteredExample' className='justify-content-center py-3'>
                          <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
                               <MDBNavbarItem className='mx-5'>
-                                   <MDBNavbarLink active aria-current='page' href=''>
-                                        Home
-                                   </MDBNavbarLink>
+                                   <MDBNavbarLink active aria-current='page' href='/'>Home</MDBNavbarLink>
                               </MDBNavbarItem>
                               <MDBNavbarItem className='mx-5'>
                                    <MDBNavbarLink href='about'>About Us</MDBNavbarLink>
