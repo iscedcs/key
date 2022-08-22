@@ -10,8 +10,8 @@ export default function About() {
                          <MDBCol sm={'12'} md={'12'} xl={'6'} xxl={'6'} >
                               <div className="ratio ratio-16x9">
                                    <iframe
-                                        src="https://www.youtube.com/embed/vlDzYIIOYmM"
-                                        title="YouTube video"
+                                        src="https://www.youtube.com/embed/13q1J7km1Ho"
+                                        title="ISCE Digital Concept"
                                         allowFullScreen
                                    ></iframe>
                               </div>

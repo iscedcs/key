@@ -6,7 +6,7 @@ export default function ProductIntro() {
           <>
                <div
                     className='p-5 text-center bg-image'
-                    style={{ backgroundImage: "url('assets/images/header/header7.jpg')", height: '300px' }}
+                    style={{ backgroundImage: "url('assets/images/header/header7.webp')", height: '300px' }}
                >
                     {/* <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
                          <div className='d-flex justify-content-center align-items-center h-100'>
