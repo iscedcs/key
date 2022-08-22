@@ -83,126 +83,84 @@ export default function About() {
                                         <MDBRow>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-01.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-02.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-03.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-04.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-05.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-06.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-07.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-08.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-09.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-10.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-11.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
                                              </MDBCol>
                                              <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
                                                   <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='https://mdbootstrap.com/img/new/standard/city/041.webp'
+                                                       src='assets/images/companies/logos-12.png'
                                                        className='img-thumbnail'
                                                        alt='...'
                                                   />
