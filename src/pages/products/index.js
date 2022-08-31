@@ -9,19 +9,19 @@ import ProductIntro from './ProductIntro'
 // importing all product images from directory
 
 // Home theater speaker
-import MIG802S from '../../assets/images/home_theater_speaker/MIG802S.jpg'
-import MIG803S from '../../assets/images/home_theater_speaker/MIG803S.jpg'
-import MIL601A from '../../assets/images/home_theater_speaker/MIL601A.jpg'
-import MIL602A from '../../assets/images/home_theater_speaker/MIL602A.png'
-import MIL603A from '../../assets/images/home_theater_speaker/MIL603A.png'
-import MIL604A from '../../assets/images/home_theater_speaker/MIL604A.png'
-import MIL605A from '../../assets/images/home_theater_speaker/MIL605A.png'
-import MIL606A from '../../assets/images/home_theater_speaker/MIL606A.jpg'
-import MIM601A from '../../assets/images/home_theater_speaker/MIM601A.png'
-import MIM602A from '../../assets/images/home_theater_speaker/MIM602A.jpg'
-import MIM603A from '../../assets/images/home_theater_speaker/MIM603A.jpg'
-import MIM604A from '../../assets/images/home_theater_speaker/MIM604A.jpg'
-import MIM605A from '../../assets/images/home_theater_speaker/MIM605A.jpg'
+import MIG802S from '../../assets/images/home_theater_speaker/MIG802S.webp'
+import MIG803S from '../../assets/images/home_theater_speaker/MIG803S.webp'
+import MIL601A from '../../assets/images/home_theater_speaker/MIL601A.webp'
+import MIL602A from '../../assets/images/home_theater_speaker/MIL602A.webp'
+import MIL603A from '../../assets/images/home_theater_speaker/MIL603A.webp'
+import MIL604A from '../../assets/images/home_theater_speaker/MIL604A.webp'
+import MIL605A from '../../assets/images/home_theater_speaker/MIL605A.webp'
+import MIL606A from '../../assets/images/home_theater_speaker/MIL606A.webp'
+import MIM601A from '../../assets/images/home_theater_speaker/MIM601A.webp'
+import MIM602A from '../../assets/images/home_theater_speaker/MIM602A.webp'
+import MIM603A from '../../assets/images/home_theater_speaker/MIM603A.webp'
+import MIM604A from '../../assets/images/home_theater_speaker/MIM604A.webp'
+import MIM605A from '../../assets/images/home_theater_speaker/MIM605A.webp'
 
 export default function Products() {
      return (
