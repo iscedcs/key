@@ -16,14 +16,14 @@ export default function Contact() {
                <ContactBreadcrumb />
                <MDBContainer className='mb-5'>
                     <MDBCard>
-                         <MDBCardHeader className='bg-dark text-white'>
+                         <MDBCardHeader className='bg-danger text-white'>
                               <MDBCardTitle>Contact Us</MDBCardTitle>
                          </MDBCardHeader>
                          <MDBCardBody>
                               <MDBRow>
                                    <MDBCol sm='12' md='12' lg='5' xl='4' className='border-end'>
                                         <div className=" mx-3">
-                                             <h3 className="-title text-black mb-5">Contact Info</h3>
+                                             <h3 className="-title text-danger mb-5">Contact Info</h3>
 
                                              <MDBRow className='mb-3 border-bottom'>
                                                   <MDBCol size='2'>
@@ -60,7 +60,7 @@ export default function Contact() {
                                    </MDBCol>
                                    <MDBCol sm='12' md='12' lg='7' xl='8'>
                                         <div className="mx-3">
-                                             <h3 className="text-black mb-5">Get In Touch</h3>
+                                             <h3 className="text-danger mb-5">Get In Touch</h3>
                                              <form className="" id="" action='' method="post">
                                                   <MDBRow>
                                                        <MDBCol className='mb-4' sm='12' md='6'>

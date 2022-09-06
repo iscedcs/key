@@ -10,7 +10,7 @@ export default function Card(props) {
                          <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                     </a>
                </MDBRipple>
-               <MDBCardFooter className='text-center bg-black text-light'>{props.name}</MDBCardFooter>
+               <MDBCardFooter className='text-center bg-danger text-light'>{props.name}</MDBCardFooter>
           </MDBCard>
      );
 }

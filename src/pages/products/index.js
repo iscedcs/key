@@ -35,27 +35,27 @@ export default function Products() {
                     <MDBRow className='mb-3'>
                          <MDBCol lg='3' md='12' className='pe-4'>
                               <MDBTable bordered className='sticky-lg-top'>
-                                   <MDBTableHead className='bg-black'>
+                                   <MDBTableHead className='bg-danger'>
                                         <tr>
                                              <th className='text-white' scope='col'>PRODUCTS</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
                                         <tr>
-                                             <td><a className='text-black' href='#home_theater_speaker'>HOME THEATER SPEAKER</a></td>
+                                             <td><a className='text-danger' href='#home_theater_speaker'>HOME THEATER SPEAKER</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-black' href='#dual_tower-speaker'>DUAL TOWER SPEAKER</a></td>
+                                             <td><a className='text-danger' href='#dual_tower-speaker'>DUAL TOWER SPEAKER</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-black' href='#drawbar_speaker'>DRAWBAR SPEAKER</a></td>
+                                             <td><a className='text-danger' href='#drawbar_speaker'>DRAWBAR SPEAKER</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>
                          <MDBCol lg='9' md='12'>
                               <MDBTable className='mb-4' id='home_theater_speaker'>
-                                   <MDBTableHead className='bg-black'>
+                                   <MDBTableHead className='bg-danger'>
                                         <tr>
                                              <th className='text-white' scope='col'>HOME THEATER SPEAKER</th>
                                         </tr>
@@ -63,7 +63,7 @@ export default function Products() {
                                    <MDBTableBody>
                                         <MDBRow>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG802S}
                                                             position="top"
@@ -119,7 +119,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -130,7 +130,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG803S}
                                                             position="top"
@@ -186,7 +186,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -197,7 +197,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL601A}
                                                             position="top"
@@ -253,7 +253,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="dangerr"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -264,7 +264,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL602A}
                                                             position="top"
@@ -320,7 +320,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -331,7 +331,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL603A}
                                                             position="top"
@@ -387,7 +387,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -398,7 +398,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL604A}
                                                             position="top"
@@ -454,7 +454,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="dangerr"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -465,7 +465,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL605A}
                                                             position="top"
@@ -521,7 +521,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -532,7 +532,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL606A}
                                                             position="top"
@@ -588,7 +588,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -599,7 +599,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIM601A}
                                                             position="top"
@@ -655,7 +655,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -666,7 +666,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIM602A}
                                                             position="top"
@@ -722,7 +722,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -733,7 +733,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIM603A}
                                                             position="top"
@@ -789,7 +789,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -800,7 +800,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIM604A}
                                                             position="top"
@@ -856,7 +856,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -867,7 +867,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIM605A}
                                                             position="top"
@@ -923,7 +923,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -937,7 +937,7 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='dual_tower-speaker'>
-                                   <MDBTableHead className='bg-black'>
+                                   <MDBTableHead className='bg-danger'>
                                         <tr>
                                              <th className='text-white' scope='col'>DUAL TOWER SPEAKER</th>
                                         </tr>
@@ -945,7 +945,7 @@ export default function Products() {
                                    <MDBTableBody>
                                         <MDBRow>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG802S}
                                                             position="top"
@@ -1001,7 +1001,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1012,7 +1012,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG803S}
                                                             position="top"
@@ -1068,7 +1068,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1079,7 +1079,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL601A}
                                                             position="top"
@@ -1135,7 +1135,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1149,7 +1149,7 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='drawbar_speaker'>
-                                   <MDBTableHead className='bg-black'>
+                                   <MDBTableHead className='bg-danger'>
                                         <tr>
                                              <th className='text-white' scope='col'>DRAWBAR SPEAKER</th>
                                         </tr>
@@ -1157,7 +1157,7 @@ export default function Products() {
                                    <MDBTableBody>
                                         <MDBRow>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG802S}
                                                             position="top"
@@ -1213,7 +1213,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1224,7 +1224,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG803S}
                                                             position="top"
@@ -1280,7 +1280,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1291,7 +1291,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL601A}
                                                             position="top"
@@ -1347,7 +1347,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1358,7 +1358,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG802S}
                                                             position="top"
@@ -1414,7 +1414,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1425,7 +1425,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG803S}
                                                             position="top"
@@ -1481,7 +1481,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1492,7 +1492,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL601A}
                                                             position="top"
@@ -1548,7 +1548,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1559,7 +1559,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG802S}
                                                             position="top"
@@ -1615,7 +1615,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1626,7 +1626,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIG803S}
                                                             position="top"
@@ -1682,7 +1682,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -1693,7 +1693,7 @@ export default function Products() {
                                                   </MDBCard>
                                              </MDBCol>
                                              <MDBCol md="4" className="mb-4 mb-lg-0">
-                                                  <MDBCard className="text-black">
+                                                  <MDBCard className="text-danger">
                                                        <MDBCardImage
                                                             src={MIL601A}
                                                             position="top"
@@ -1749,7 +1749,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="black"
+                                                                      color="danger"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
