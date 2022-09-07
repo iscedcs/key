@@ -217,7 +217,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="darkr"
+                                                                      color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
@@ -346,7 +346,7 @@ export default function Products() {
 
                                                             <div className="d-flex flex-row">
                                                                  <MDBBtn
-                                                                      color="darkr"
+                                                                      color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1"
                                                                  >
