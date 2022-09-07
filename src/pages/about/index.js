@@ -18,27 +18,27 @@ export default function About() {
                     <MDBRow className='mb-3'>
                          <MDBCol lg='3' md='12' className='pe-4'>
                               <MDBTable bordered className='sticky-lg-top'>
-                                   <MDBTableHead  className='bg-danger'>
+                                   <MDBTableHead  className='bg-dark'>
                                         <tr>
                                              <th className='text-white' scope='col'>About Us</th>
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
                                         <tr>
-                                             <td><a className='text-danger' href='#profile'>Company Profile</a></td>
+                                             <td><a className='text-dark' href='#profile'>Company Profile</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-danger' href='#culture'>Company Culture</a></td>
+                                             <td><a className='text-dark' href='#culture'>Company Culture</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-danger' href='#partners'>Partners</a></td>
+                                             <td><a className='text-dark' href='#partners'>Partners</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>
                          <MDBCol lg='9' md='12'>
                               <MDBTable className='mb-4' id='profile'>
-                                   <MDBTableHead  className='bg-danger'>
+                                   <MDBTableHead  className='bg-dark'>
                                         <tr>
                                              <th className='text-white' scope='col'>Company Profile</th>
                                         </tr>
@@ -56,7 +56,7 @@ export default function About() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='culture'>
-                                   <MDBTableHead  className='bg-danger'>
+                                   <MDBTableHead  className='bg-dark'>
                                         <tr>
                                              <th className='text-white' scope='col'>Company Culture</th>
                                         </tr>
@@ -74,7 +74,7 @@ export default function About() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='partners'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-dark'>
                                         <tr>
                                              <th className='text-white' scope='col'>Partners</th>
                                         </tr>
