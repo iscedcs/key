@@ -7,6 +7,7 @@ import About from './About'
 import NewProducts from './NewProducts'
 
 export default function Home() {
+     document.title = setTitle();
      return (
           <section>
                <Header />
@@ -17,4 +18,8 @@ export default function Home() {
                <Footer />
           </section>
      )
+
+	function setTitle() {
+		return "MI+ - Home Page";
+	}
 }

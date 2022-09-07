@@ -8,6 +8,8 @@ import ContactIntro from './ContactIntro'
 import ContactMap from './ContactMap'
 
 export default function Contact() {
+
+	document.title = setTitle();
      return (
           <section>
                <Header />
@@ -90,4 +92,8 @@ export default function Contact() {
                <Footer />
           </section>
      )
+
+	function setTitle() {
+		return "MI+ - Contact Us";
+	}
 }

@@ -1,4 +1,7 @@
-import { MDBBtn, MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBTable, MDBTableBody, MDBTableHead } from 'mdb-react-ui-kit'
+import { 
+     // MDBBtn, 
+     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBTable, MDBTableBody, MDBTableHead 
+} from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
@@ -57,6 +60,7 @@ import MI43DF1A from '../../assets/images/televisions/MI43DF1A.webp'
 
 
 export default function Products() {
+     document.title = setTitle();
      return (
           <section>
                <Header />
@@ -129,15 +133,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -172,15 +179,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -215,15 +225,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -258,15 +271,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -301,15 +317,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -344,15 +363,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -387,15 +409,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -430,15 +455,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -473,15 +501,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -516,15 +547,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -559,15 +593,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -602,15 +639,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -645,15 +685,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -699,15 +742,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -742,15 +788,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -785,15 +834,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -839,15 +891,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -882,15 +937,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -925,15 +983,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -968,15 +1029,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1011,15 +1075,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1054,15 +1121,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1097,15 +1167,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1140,19 +1213,22 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
-                                             <MDBCol md="4" className="mb-4 mb-lg-0"> 
+                                             <MDBCol md="4" className="mb-4 mb-lg-0">
                                                   <MDBCard className="text-dark">
                                                        <MDBCardImage
                                                             src={MITS018}
@@ -1183,15 +1259,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1237,15 +1316,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1280,15 +1362,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1323,15 +1408,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1366,15 +1454,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1409,15 +1500,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1452,15 +1546,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1495,15 +1592,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1538,15 +1638,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1581,15 +1684,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1624,15 +1730,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1667,15 +1776,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1710,15 +1822,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1753,15 +1868,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1796,15 +1914,18 @@ export default function Products() {
                                                                  </div>
                                                             </div>
 
-                                                            <div className="d-flex flex-row">
-                                                                 <MDBBtn
+                                                            {/* <div className="d-flex flex-row">
+
+                                                                 <a
                                                                       color="dark"
                                                                       rippleColor="white"
-                                                                      className="flex-fill ms-1"
+                                                                      className="flex-fill ms-1 btn btn-dark"
+                                                                      href='/product-info'
                                                                  >
                                                                       Learn more
-                                                                 </MDBBtn>
-                                                            </div>
+                                                                 </a>
+
+                                                            </div> */}
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1818,4 +1939,8 @@ export default function Products() {
                <Footer />
           </section>
      )
+
+	function setTitle() {
+		return "MI+ - Our Products";
+	}
 }

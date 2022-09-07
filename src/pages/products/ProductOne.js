@@ -1,7 +1,18 @@
 import React from 'react'
+import Header from '../components/Header'
+import Navbar from '../components/Navbar'
+
 
 export default function ProductOne() {
-  return (
-    <div>This is the single products page</div>
-  )
+	document.title = setTitle();
+	return (
+		<section>
+			<Header />
+			<Navbar />
+		</section>
+	)
+
+	function setTitle() {
+		return "Product Info";
+	}
 }

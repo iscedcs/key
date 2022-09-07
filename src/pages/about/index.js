@@ -7,6 +7,8 @@ import AboutIntro from './AboutIntro'
 import Breadcrumb from './Breadcrumb'
 
 export default function About() {
+
+	document.title = setTitle();
      return (
           <section>
                <Header />
@@ -175,4 +177,8 @@ export default function About() {
                <Footer />
           </section>
      )
+
+	function setTitle() {
+		return "MI+ - About Us";
+	}
 }
