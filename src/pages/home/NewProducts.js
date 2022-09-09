@@ -8,17 +8,18 @@ import 'swiper/css/scrollbar';
 import { MDBContainer, MDBTypography } from 'mdb-react-ui-kit';
 import Card from '../components/Card';
 import One from '../../assets/images/tvtypes/one.png'
-import Two from '../../assets/images/tvtypes/two.png'
-import Three from '../../assets/images/tvtypes/three.png'
-import Four from '../../assets/images/tvtypes/four.png'
+import Two from '../../assets/images/home_theater_speaker/MIG802S.webp'
+import Three from '../../assets/images/dual_tower_speaker/MID8026.webp'
+import Four from '../../assets/images/drawbar_speaker/MITS048.webp'
 
 export default function NewProducts() {
      SwiperCore.use([Autoplay])
      return (
           <>
                <MDBContainer className='pt-5'>
-               <MDBTypography tag='h3' className='text-center mb-3 text-dark' >Latest Products</MDBTypography>
+                    <MDBTypography tag='h3' className='text-center mb-3 text-dark' >Latest Products</MDBTypography>
                     <Swiper
+                         className='pb-5'
                          modules={[Navigation, Pagination, Scrollbar, A11y, Autoplay]}
                          spaceBetween={50}
                          slidesPerView={3}
@@ -41,31 +42,19 @@ export default function NewProducts() {
                          }}
                     >
                          <SwiperSlide>
-                              <Card name={'Type One'} image={One} />
+                              <Card name={'Smart TV'} image={One} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Type Two'} image={Two} />
+                              <Card name={'Home Theater Speaker'} image={Two} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Type Three'} image={Three} />
+                              <Card name={'Dual Tower Speaker'} image={Three} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Type Four'} image={Four} />
-                         </SwiperSlide>
-                         <SwiperSlide>
-                              <Card name={'Type One'} image={One} />
-                         </SwiperSlide>
-                         <SwiperSlide>
-                              <Card name={'Type Two'} image={Two} />
-                         </SwiperSlide>
-                         <SwiperSlide>
-                              <Card name={'Type Three'} image={Three} />
-                         </SwiperSlide>
-                         <SwiperSlide>
-                              <Card name={'Type Four'} image={Four} />
+                              <Card name={'Drawbar Speaker'} image={Four} />
                          </SwiperSlide>
                     </Swiper>
-                    
+
                </MDBContainer>
           </>
      )

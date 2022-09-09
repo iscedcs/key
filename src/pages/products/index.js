@@ -1,6 +1,6 @@
-import { 
+import {
      // MDBBtn, 
-     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBTable, MDBTableBody, MDBTableHead 
+     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBTable, MDBTableBody, MDBTableHead
 } from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
@@ -1940,7 +1940,7 @@ export default function Products() {
           </section>
      )
 
-	function setTitle() {
-		return "MI+ - Our Products";
-	}
+     function setTitle() {
+          return "MI+ - Our Products";
+     }
 }

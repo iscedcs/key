@@ -3,10 +3,6 @@ import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCarouselElement } fr
 import Slider1 from '../../assets/images/slider/slider1.webp'
 import Slider2 from '../../assets/images/slider/slider2.webp'
 import Slider3 from '../../assets/images/slider/slider3.webp'
-import Slider4 from '../../assets/images/slider/slider4.webp'
-import Slider5 from '../../assets/images/slider/slider5.webp'
-import Slider6 from '../../assets/images/slider/slider6.webp'
-import Slider7 from '../../assets/images/slider/slider7.webp'
 
 export default function App() {
      return (
@@ -20,18 +16,6 @@ export default function App() {
                     </MDBCarouselItem>
                     <MDBCarouselItem>
                          <MDBCarouselElement src={Slider3} alt='...' />
-                    </MDBCarouselItem>
-                    <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider4} alt='...' />
-                    </MDBCarouselItem>
-                    <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider5} alt='...' />
-                    </MDBCarouselItem>
-                    <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider6} alt='...' />
-                    </MDBCarouselItem>
-                    <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider7} alt='...' />
                     </MDBCarouselItem>
                </MDBCarouselInner>
           </MDBCarousel>
