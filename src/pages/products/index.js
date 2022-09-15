@@ -323,8 +323,8 @@ export default function Products() {
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H360 * W215 * D280mm for Subwoofer<br />
+                                                                           H360 * W100 * D60mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -371,8 +371,8 @@ export default function Products() {
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H360 * W215 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D60mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -467,8 +467,8 @@ export default function Products() {
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H360 * W215 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D60mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -510,13 +510,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -558,13 +559,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -606,13 +608,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -654,13 +657,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -702,13 +706,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -761,13 +766,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
@@ -809,13 +815,14 @@ export default function Products() {
                                                                  <div className="d-flex flex-column mb-4 text-start">
                                                                       <li>Subwoofer: 6.5 inch</li>
                                                                       <li>Satellite: 3 inch*3</li>
-                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
                                                                       <li>With digital amplifier</li>
                                                                       <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
                                                                       <li>
                                                                            Dimension:<br />
-                                                                           H340 * W200 * D280mm for Subwoofer<br />
-                                                                           H330 * W100 * D60mm for Satellites
+                                                                           H370 * W235 * D280mm for Subwoofer<br />
+                                                                           H370 * W100 * D80mm for Satellites
                                                                       </li>
                                                                  </div>
                                                             </div>
