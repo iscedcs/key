@@ -49,22 +49,22 @@ export default function Footer() {
                                    <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
                                    <p>
                                         <a href='product-one' className='text-reset'>
-                                             Product One
+                                             Smart TV
                                         </a>
                                    </p>
                                    <p>
                                         <a href='product-one' className='text-reset'>
-                                             Product Two
+                                             Home Theater Speaker
                                         </a>
                                    </p>
                                    <p>
                                         <a href='product-one' className='text-reset'>
-                                             Product Three
+                                             Dual Tower Speaker
                                         </a>
                                    </p>
                                    <p>
                                         <a href='product-one' className='text-reset'>
-                                             Product Four
+                                             Drawbar Speaker
                                         </a>
                                    </p>
                               </MDBCol>
