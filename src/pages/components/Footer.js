@@ -97,7 +97,7 @@ export default function Footer() {
                                    <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                                    <p>
                                         <MDBIcon icon="home" className="me-2" />
-                                        Maruwa, Lekki, Lagos
+                                        Ikeja, Lagos, Nigeria
                                    </p>
                                    <p>
                                         <MDBIcon icon="envelope" className="me-3" />
