@@ -1,6 +1,8 @@
 import {
      // MDBBtn, 
-     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBRow, MDBTable, MDBTableBody, MDBTableHead
+     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer,
+     // MDBIcon,
+     MDBRow, MDBTable, MDBTableBody, MDBTableHead
 } from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
@@ -121,30 +123,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -167,30 +171,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -213,30 +219,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -259,30 +267,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -305,30 +315,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -351,30 +363,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -397,30 +411,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -443,30 +459,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -489,30 +507,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -535,30 +555,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -581,30 +603,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -627,30 +651,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -673,30 +699,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5" / 8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -730,30 +758,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">5.25"/6.5"/8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -776,30 +806,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">5.25"/6.5"/8″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -822,30 +854,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">5.25"/6.5"/8″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -879,30 +913,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -925,30 +961,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -971,30 +1009,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1017,30 +1057,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1063,30 +1105,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1109,30 +1153,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1155,30 +1201,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1201,30 +1249,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1247,30 +1297,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1304,30 +1356,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1350,30 +1404,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1396,30 +1452,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1442,30 +1500,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1488,30 +1548,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1534,30 +1596,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1580,30 +1644,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1626,30 +1692,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1672,30 +1740,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1718,30 +1788,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1764,30 +1836,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1810,30 +1884,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1856,30 +1932,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Liquid Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
@@ -1902,30 +1980,32 @@ export default function Products() {
                                                                       <h5 className="mb-0">Specification</h5>
                                                                  </div>
 
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mt-4 mb-0">6.5″</span>
-                                                                      <span>Super Retina HD display1</span>
-                                                                 </div>
-
-                                                                 <div className="d-flex flex-column mb-4">
-                                                                      <span className="h1 mb-0">
-                                                                           <MDBIcon fas icon="camera-retro" />
-                                                                      </span>
+                                                                 <div className="d-flex flex-column mb-4 text-start">
+                                                                      <li>Subwoofer: 6.5 inch</li>
+                                                                      <li>Satellite: 3 inch*3</li>
+                                                                      <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
+                                                                      <li>With digital amplifier</li>
+                                                                      <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
+                                                                      <li>
+                                                                           Dimension:<br />
+                                                                           H340 * W200 * D280mm for Subwoofer<br />
+                                                                           H330 * W100 * D60mm for Satellites
+                                                                      </li>
                                                                  </div>
                                                             </div>
 
-                                                            {/* <div className="d-flex flex-row">
+                                                            <div className="d-flex flex-row">
 
                                                                  <a
                                                                       color="dark"
                                                                       rippleColor="white"
                                                                       className="flex-fill ms-1 btn btn-dark"
-                                                                      href='/product-info'
+                                                                      href='/product-one'
                                                                  >
                                                                       Learn more
                                                                  </a>
 
-                                                            </div> */}
+                                                            </div>
                                                        </MDBCardBody>
                                                   </MDBCard>
                                              </MDBCol>
