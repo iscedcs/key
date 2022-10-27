@@ -18,7 +18,7 @@ export default function Contact() {
                <ContactBreadcrumb />
                <MDBContainer className='mb-5'>
                     <MDBCard>
-                         <MDBCardHeader className='bg-dark text-white'>
+                         <MDBCardHeader className='bg-danger text-white'>
                               <MDBCardTitle>Contact Us</MDBCardTitle>
                          </MDBCardHeader>
                          <MDBCardBody>
@@ -27,35 +27,34 @@ export default function Contact() {
                                         <div className=" mx-3">
                                              <h3 className="-title text-dark mb-5">Contact Info</h3>
 
-                                             <MDBRow className='mb-3 border-bottom'>
+                                             <MDBRow className='py-2 border-bottom'>
                                                   <MDBCol size='2'>
                                                        <MDBIcon fas icon="map-marker-alt" className=' fa-2x' />
                                                   </MDBCol>
                                                   <MDBCol size='10'>
                                                        <h6>Head Office</h6>
-                                                       <p>Your address here <br /><span>54/X, New Down City</span></p>
+                                                       <p>423 Rd, Festac Town  <br /><span>102102, Lagos</span></p>
                                                   </MDBCol>
                                              </MDBRow>
 
-                                             <MDBRow className='mb-3 border-bottom'>
+                                             <MDBRow className='py-2 border-bottom'>
                                                   <MDBCol size='2'>
                                                        <MDBIcon fas icon="phone-alt" className=' fa-2x' />
                                                   </MDBCol>
                                                   <MDBCol size='10'>
                                                        <h6>Phone</h6>
                                                        <a href="tel://+00123456789 ">+00 123 456 789</a> <br />
-                                                       <a href="tel://+00123456989">+00 123 456 989</a>
                                                   </MDBCol>
                                              </MDBRow>
 
-                                             <MDBRow className='mb-3'>
+                                             <MDBRow className='py-2'>
                                                   <MDBCol size='2'>
-                                                       <MDBIcon fas icon="map-marker-alt" className=' fa-2x' />
+                                                       <MDBIcon fas icon="envelope" className=' fa-2x' />
                                                   </MDBCol>
                                                   <MDBCol size='10'>
                                                        <h6>Email</h6>
-                                                       <a href="mailto://demo@example.com">youremail@demo.com</a> <br />
-                                                       <a href="mailto://example@demo.info">www.yoursite.web</a>
+                                                       <a href="mailto://info@hello-mi.com">info@hello-mi.com</a> <br />
+
                                                   </MDBCol>
                                              </MDBRow>
                                         </div>
@@ -74,7 +73,7 @@ export default function Contact() {
                                                   </MDBRow>
                                                   <MDBInput className='mb-4' label='Your Subject' id='form1' type='text' />
                                                   <MDBTextArea className='mb-4' label='Your Message' id='textAreaExample' rows={4} />
-                                                  <MDBBtn style={{ backgroundColor: '#000000' }} href='#'>
+                                                  <MDBBtn style={{ backgroundColor: '#f93154' }} href='#'>
                                                        <MDBIcon className='me-2' fas icon='paper-plane' /> Submit Now
                                                   </MDBBtn>
                                              </form>

@@ -3,7 +3,7 @@ import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-k
 
 export default function Footer() {
      return (
-          <MDBFooter bgColor='dark' className='text-center text-lg-start text-light mt-5'>
+          <MDBFooter bgColor='danger' className='text-center text-lg-start text-light mt-5'>
                <section className='pt-3'>
                     <MDBContainer className='text-center text-md-start mt-5'>
                          <MDBRow className='mt-3'>
@@ -69,7 +69,7 @@ export default function Footer() {
                                    <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
                                    <p>
                                         <MDBIcon icon="home" className="me-2" />
-                                        Ikeja, Lagos, Nigeria
+                                        423 Rd, Festac Town 102102, Lagos
                                    </p>
                                    <p>
                                         <MDBIcon icon="envelope" className="me-3" />
@@ -78,9 +78,6 @@ export default function Footer() {
                                    <p>
                                         <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
                                    </p>
-                                   <p>
-                                        <MDBIcon icon="print" className="me-3" /> + 01 234 567 89
-                                   </p>
                               </MDBCol>
                          </MDBRow>
                     </MDBContainer>
@@ -88,7 +85,7 @@ export default function Footer() {
 
                <div className='text-center p-4' style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}>
                     © 2022 Copyright:
-                    <a className='text-reset fw-bold' href='#!'>
+                    <a className='text-reset fw-bold ms-2' href='#!'>
                          MI + Electronics
                     </a>
                </div>
