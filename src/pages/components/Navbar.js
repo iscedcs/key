@@ -4,7 +4,7 @@ import { MDBNavbar, MDBContainer, MDBIcon, MDBNavbarNav, MDBNavbarItem, MDBNavba
 export default function Navbar() {
      const [showNavCentred, setShowNavCentred] = useState(false);
      return (
-          <MDBNavbar expand='lg' dark bgColor='danger'>
+          <MDBNavbar expand='lg' dark bgColor='black'>
                <MDBContainer fluid>
                     <MDBNavbarToggler
                          type='button'
@@ -33,7 +33,7 @@ export default function Navbar() {
                               </MDBNavbarItem>
                          </MDBNavbarNav>
                          <MDBDropdown>
-                              <MDBDropdownToggle className='bg-danger'>English</MDBDropdownToggle>
+                              <MDBDropdownToggle className='bg-black'>English</MDBDropdownToggle>
                               <MDBDropdownMenu>
                                    <MDBDropdownItem>
                                         <MDBDropdownLink href="#">English</MDBDropdownLink>

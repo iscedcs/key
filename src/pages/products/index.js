@@ -74,7 +74,7 @@ export default function Products() {
                     <MDBRow className='mb-3'>
                          <MDBCol lg='3' md='12' className='pe-4'>
                               <MDBTable bordered className='sticky-lg-top'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>PRODUCTS</th>
                                         </tr>
@@ -97,7 +97,7 @@ export default function Products() {
                          </MDBCol>
                          <MDBCol lg='9' md='12'>
                               <MDBTable className='mb-4' id='home_theater_speaker'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>HOME THEATER SPEAKER</th>
                                         </tr>
@@ -144,7 +144,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -192,7 +192,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -240,7 +240,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -288,7 +288,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -336,7 +336,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -384,7 +384,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -432,7 +432,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -480,7 +480,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -529,7 +529,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -578,7 +578,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -627,7 +627,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -676,7 +676,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -725,7 +725,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -741,7 +741,7 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='dual_tower-speaker'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>DUAL TOWER SPEAKER</th>
                                         </tr>
@@ -789,7 +789,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -838,7 +838,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -886,7 +886,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -902,7 +902,7 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='drawbar_speaker'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>DRAWBAR SPEAKER</th>
                                         </tr>
@@ -949,7 +949,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -997,7 +997,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1045,7 +1045,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1093,7 +1093,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1141,7 +1141,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1189,7 +1189,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1237,7 +1237,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1285,7 +1285,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1333,7 +1333,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1349,7 +1349,7 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='televisions'>
-                                   <MDBTableHead className='bg-danger'>
+                                   <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>TELEVISIONS</th>
                                         </tr>
@@ -1396,7 +1396,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1444,7 +1444,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1492,7 +1492,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1540,7 +1540,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1588,7 +1588,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1636,7 +1636,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1684,7 +1684,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1732,7 +1732,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1780,7 +1780,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1828,7 +1828,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1876,7 +1876,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1924,7 +1924,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -1972,7 +1972,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more
@@ -2020,7 +2020,7 @@ export default function Products() {
                                                                            <a
                                                                                 color="dark"
                                                                                 ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn btn-danger"
+                                                                                className="flex-fill ms-1 btn bg-black text-white"
                                                                                 href='/#!'
                                                                            >
                                                                                 Learn more

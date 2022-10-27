@@ -18,7 +18,7 @@ export default function Contact() {
                <ContactBreadcrumb />
                <MDBContainer className='mb-5'>
                     <MDBCard>
-                         <MDBCardHeader className='bg-danger text-white'>
+                         <MDBCardHeader className='bg-black text-white'>
                               <MDBCardTitle>Contact Us</MDBCardTitle>
                          </MDBCardHeader>
                          <MDBCardBody>
@@ -73,7 +73,7 @@ export default function Contact() {
                                                   </MDBRow>
                                                   <MDBInput className='mb-4' label='Your Subject' id='form1' type='text' />
                                                   <MDBTextArea className='mb-4' label='Your Message' id='textAreaExample' rows={4} />
-                                                  <MDBBtn style={{ backgroundColor: '#f93154' }} href='#'>
+                                                  <MDBBtn style={{ backgroundColor: '#000000' }} href='#'>
                                                        <MDBIcon className='me-2' fas icon='paper-plane' /> Submit Now
                                                   </MDBBtn>
                                              </form>
