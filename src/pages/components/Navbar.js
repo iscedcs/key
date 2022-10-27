@@ -17,7 +17,7 @@ export default function Navbar() {
                          <MDBIcon icon='bars' fas />
                     </MDBNavbarToggler>
 
-                    <MDBCollapse navbar show={showNavCentred}  id='navbarCenteredExample' className='justify-content-center py-3 text-center'>
+                    <MDBCollapse navbar show={showNavCentred} id='navbarCenteredExample' className='justify-content-center py-3 text-center'>
                          <MDBNavbarNav fullWidth={false} className='mb-2 mb-lg-0'>
                               <MDBNavbarItem className='mx-5 py-3'>
                                    <MDBNavbarLink active aria-current='page' href='/'>Home</MDBNavbarLink>

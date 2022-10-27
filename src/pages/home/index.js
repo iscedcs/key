@@ -3,7 +3,6 @@ import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import Slider from '../components/Slider'
-import About from './About'
 import NewProducts from './NewProducts'
 
 export default function Home() {
@@ -11,15 +10,21 @@ export default function Home() {
      return (
           <section>
                <Header />
-               <Navbar title = {'Home'} />
+               <Navbar title={'Home'} />
                <Slider />
                <NewProducts />
-               <About />
+               <section className=''>
+                    <div className='w-100'>
+                         <img src='assets/images/home/32/2.jpg' alt='' width={'100%'} />
+                         <img src='assets/images/home/43/7.png' alt='' width={'100%'} />
+                         <img src='assets/images/home/43/8.jpg' alt='' width={'100%'} />
+                    </div>
+               </section>
                <Footer />
           </section>
      )
 
-	function setTitle() {
-		return "MI+ - Home Page";
-	}
+     function setTitle() {
+          return "MI+ - Home Page";
+     }
 }

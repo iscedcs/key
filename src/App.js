@@ -1,23 +1,25 @@
 import './App.css';
-import { Routes, Route } from "react-router-dom";
 import Home from './pages/home';
 import About from './pages/about';
 import Products from './pages/products';
 import Contact from './pages/contact';
-import ProductOne from './pages/products/ProductOne';
+import Error404 from './pages/components/Error404';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
-  return (
-    <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-        <Route path="contact" element={<Contact />} />
-        <Route path="products" element={<Products />} />
-        <Route path="product-one" element={<ProductOne />} />
-      </Routes>
-    </div>
-  );
+	return (
+		<div className="App">
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="about" element={<About />} />
+					<Route path="contact" element={<Contact />} />
+					<Route path="products" element={<Products />} />
+					<Route path="*" element={<Error404 />} />
+				</Routes>
+			</BrowserRouter>
+		</div>
+	);
 }
 
 export default App;

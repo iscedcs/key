@@ -9,7 +9,7 @@ import ContactMap from './ContactMap'
 
 export default function Contact() {
 
-	document.title = setTitle();
+     document.title = setTitle();
      return (
           <section>
                <Header />
@@ -93,7 +93,7 @@ export default function Contact() {
           </section>
      )
 
-	function setTitle() {
-		return "MI+ - Contact Us";
-	}
+     function setTitle() {
+          return "MI+ - Contact Us";
+     }
 }

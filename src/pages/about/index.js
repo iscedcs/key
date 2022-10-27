@@ -46,11 +46,14 @@ export default function About() {
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody className=''>
-                                        <p className='lead ps-4 pt-3'>MI Plus is an electronics brand. We provide high quality Home Appliances for very affordable rates. Our TV sets are user friendly, budget friendly, and perfect for every home.</p>
-                                        <p className='lead ps-4'>We strive to provide good quality appliances at affordable rates.</p>
-                                        <p className='lead ps-4'>We strive to provide good quality appliances at affordable rates.</p>
-                                        <p className='lead ps-4'>We offer Prompt Aftersales Services, Service Engineers to set up for you, One Year Warranty, and so much more.</p>
-                                        <p className='lead ps-4'>You can finally stop buying overpriced appliances, we have got you covered.</p>
+                                        <tr>
+                                             <td>
+                                                  MI Plus is an electronics brand. We provide high quality Home Appliances for very affordable rates. Our TV sets are user friendly, budget friendly, and perfect for every home.
+                                                  We strive to provide good quality appliances at affordable rates.
+                                                  We offer Prompt Aftersales Services, Service Engineers to set up for you, One Year Warranty, and so much more.
+                                                  You can finally stop buying overpriced appliances, we have got you covered.
+                                             </td>
+                                        </tr>
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='profile'>
@@ -60,9 +63,13 @@ export default function About() {
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody className=''>
-                                        <p className='lead ps-4 pt-3'>The vision is headed by Mr. Tommy. He started working in the TV production industry at the age of 18.</p>
-                                        <p className='lead ps-4'>After creating standard TV sets for over 20 years, he has decided to create a brand that would be accessible to all.</p>
-                                        <p className='lead ps-4'>Using his vast experience, Mr. Tommy has found a good way to combine quality and affordability to give users the most wonderful experience.</p>
+                                        <tr>
+                                             <td>
+                                                  The vision is headed by Mr. Tommy. He started working in the TV production industry at the age of 18.
+                                                  After creating standard TV sets for over 20 years, he has decided to create a brand that would be accessible to all.
+                                                  Using his vast experience, Mr. Tommy has found a good way to combine quality and affordability to give users the most wonderful experience.
+                                             </td>
+                                        </tr>
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='culture'>
@@ -72,9 +79,13 @@ export default function About() {
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
-                                        <p className='lead ps-4 pt-3'>We believe in quality fun and entertainment: A night in front of the TV, some family time, or catching up on your favourite TV shows.</p>
-                                        <p className='lead ps-4'>We believe in Durability. Don’t go through the stress of changing your appliances every few years, or fixing something every few months. We provide durable appliances.</p>
-                                        <p className='lead ps-4'>We believe in affordability. The simple things in life should be accessible to all.</p>
+                                        <tr>
+                                             <td>
+                                                  We believe in quality fun and entertainment: A night in front of the TV, some family time, or catching up on your favourite TV shows.
+                                                  We believe in Durability. Don’t go through the stress of changing your appliances every few years, or fixing something every few months. We provide durable appliances.
+                                                  We believe in affordability. The simple things in life should be accessible to all.
+                                             </td>
+                                        </tr>
                                    </MDBTableBody>
                               </MDBTable>
                               <MDBTable className='mb-4' id='partners'>
@@ -84,92 +95,96 @@ export default function About() {
                                         </tr>
                                    </MDBTableHead>
                                    <MDBTableBody>
-                                        <MDBRow>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-01.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-02.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-03.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-04.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-05.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-06.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-07.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-08.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-09.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-10.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-11.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                             <MDBCol size='6' sm='6' md='4' lg='3' xl='2'>
-                                                  <img
-                                                       src='assets/images/companies/logos-12.png'
-                                                       className='img-thumbnail'
-                                                       alt='...'
-                                                  />
-                                             </MDBCol>
-                                        </MDBRow>
+                                        <tr>
+                                             <td>
+                                                  <MDBRow>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-01.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-02.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-03.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-04.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-05.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-06.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-07.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-08.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-09.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-10.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-11.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                       <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
+                                                            <img
+                                                                 src='assets/images/companies/logos-12.png'
+                                                                 className='img-thumbnail'
+                                                                 alt='...'
+                                                            />
+                                                       </MDBCol>
+                                                  </MDBRow>
+                                             </td>
+                                        </tr>
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>

@@ -1,4 +1,4 @@
-import { MDBCard, MDBCardBody, MDBCardText, MDBCol, MDBContainer, MDBRow, MDBTypography } from 'mdb-react-ui-kit'
+import { MDBCard, MDBCardBody, MDBCardText, MDBCol, MDBContainer, MDBRow } from 'mdb-react-ui-kit'
 import React from 'react'
 
 export default function About() {
@@ -19,19 +19,19 @@ export default function About() {
                               <MDBCard>
                                    <MDBCardBody>
                                         <MDBCardText>
-                                             <MDBTypography tag='h3' className='text-uppercase text-center' >About Us</MDBTypography>
-                                             <p className=''>
+                                             <span className='text-uppercase text-center fs-3' >About Us</span><br />
+                                             <span className='mb-3'>
                                                   MI Plus is an electronics brand. We provide high quality Home Appliances for very affordable rates. Our TV sets are user friendly, budget friendly, and perfect for every home.
-                                             </p>
-                                             <p className=''>
+                                             </span><br /><br />
+                                             <span className='mb-3'>
                                                   We strive to provide good quality appliances at affordable rates.
-                                             </p>
-                                             <p className=''>We strive to provide good quality appliances at affordable rates.
+                                             </span><br /><br />
+                                             <span className='mb-3'>We strive to provide good quality appliances at affordable rates.
                                                   We offer Prompt Aftersales Services, Service Engineers to set up for you, One Year Warranty, and so much more.
-                                             </p>
-                                             <p className=''>
+                                             </span><br /><br />
+                                             <span className=''>
                                                   You can finally stop buying overpriced appliances, we have got you covered.
-                                             </p>
+                                             </span>
                                         </MDBCardText>
                                    </MDBCardBody>
                               </MDBCard>
