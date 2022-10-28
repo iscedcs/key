@@ -7,7 +7,7 @@ export default function Navbar() {
      return (
           <MDBNavbar expand='lg' dark bgColor='black'>
                <MDBContainer>
-                    <MDBNavbarBrand href='#'>
+                    <MDBNavbarBrand href='/'>
                          <img src={logo} height={40} alt={'M+'} />
                     </MDBNavbarBrand>
                     <MDBNavbarToggler
