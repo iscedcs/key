@@ -1,8 +1,7 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCarouselElement } from 'mdb-react-ui-kit';
-import Slider1 from '../../assets/images/slider/slider1.png'
-import Slider2 from '../../assets/images/slider/slider2.png'
-// import Slider3 from '../../assets/images/slider/slider3.webp'
+import Slider1 from '../../assets/images/slider/slider1.webp'
+import Slider2 from '../../assets/images/slider/slider2.webp'
 
 export default function App() {
      return (
@@ -14,9 +13,6 @@ export default function App() {
                     <MDBCarouselItem>
                          <MDBCarouselElement src={Slider2} alt='...' />
                     </MDBCarouselItem>
-                    {/* <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider3} alt='...' />
-                    </MDBCarouselItem> */}
                </MDBCarouselInner>
           </MDBCarousel>
      );

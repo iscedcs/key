@@ -1,7 +1,6 @@
 import { MDBBtn, MDBCard, MDBCardBody, MDBCardHeader, MDBCardTitle, MDBCol, MDBContainer, MDBIcon, MDBInput, MDBRow, MDBTextArea } from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import ContactBreadcrumb from './ContactBreadcrumb'
 import ContactIntro from './ContactIntro'
@@ -12,7 +11,6 @@ export default function Contact() {
      document.title = setTitle();
      return (
           <section>
-               <Header />
                <Navbar title={'Contact'} />
                <ContactIntro />
                <ContactBreadcrumb />

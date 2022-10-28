@@ -1,7 +1,6 @@
 import { MDBCol, MDBContainer, MDBRow, MDBTable, MDBTableBody, MDBTableHead } from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import AboutIntro from './AboutIntro'
 import Breadcrumb from './Breadcrumb'
@@ -11,7 +10,6 @@ export default function About() {
      document.title = setTitle();
      return (
           <section>
-               <Header />
                <Navbar title={'About'} />
                <AboutIntro />
                <Breadcrumb />
