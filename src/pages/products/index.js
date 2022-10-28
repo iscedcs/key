@@ -6,7 +6,6 @@ import {
 } from 'mdb-react-ui-kit'
 import React from 'react'
 import Footer from '../components/Footer'
-import Header from '../components/Header'
 import Navbar from '../components/Navbar'
 import ProductBreadcrumb from './ProductBreadcrumb'
 import ProductIntro from './ProductIntro'
@@ -65,7 +64,6 @@ export default function Products() {
      document.title = setTitle();
      return (
           <section>
-               <Header />
                <Navbar title={'Products'} />
                <ProductIntro />
                <ProductBreadcrumb />

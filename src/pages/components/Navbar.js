@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
-import { MDBNavbar, MDBContainer, MDBIcon, MDBNavbarNav, MDBNavbarItem, MDBNavbarLink, MDBNavbarToggler, MDBCollapse, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBDropdownLink } from 'mdb-react-ui-kit';
+import { MDBNavbarBrand, MDBNavbar, MDBContainer, MDBIcon, MDBNavbarNav, MDBNavbarItem, MDBNavbarLink, MDBNavbarToggler, MDBCollapse, MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem, MDBDropdownLink } from 'mdb-react-ui-kit';
+import logo from '../../assets/images/logo/logo.svg'
 
 export default function Navbar() {
      const [showNavCentred, setShowNavCentred] = useState(false);
      return (
           <MDBNavbar expand='lg' dark bgColor='black'>
-               <MDBContainer fluid>
+               <MDBContainer>
+                    <MDBNavbarBrand href='#'>
+                         <img src={logo} height={40} alt={'M+'} />
+                    </MDBNavbarBrand>
                     <MDBNavbarToggler
                          type='button'
                          data-target='#navbarCenteredExample'
