@@ -6,7 +6,7 @@ export default function Card(props) {
           <MDBCard className=''>
                <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                     <MDBCardImage src={props.image} fluid alt='' />
-                    <a href={'#!'}>
+                    <a href={props.link}>
                          <div className='mask' style={{ backgroundColor: 'rgba(251, 251, 251, 0.15)' }}></div>
                     </a>
                </MDBRipple>

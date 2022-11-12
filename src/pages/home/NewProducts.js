@@ -38,22 +38,22 @@ export default function NewProducts() {
                          }}
                     >
                          <SwiperSlide>
-                              <Card name={'LED TV'} image={'assets/images/latest/led.webp'} />
+                              <Card link={'productsproducts'} name={'LED TV'} image={'assets/images/latest/led.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Smart TV'} image={'assets/images/latest/smart.webp'} />
+                              <Card link={'products'} name={'Smart TV'} image={'assets/images/latest/smart.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Home Theater Speaker'} image={'assets/images/latest/home.webp'} />
+                              <Card link={'products'} name={'Home Theater Speaker'} image={'assets/images/latest/home.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Dual Tower Speaker'} image={'assets/images/latest/dual.webp'} />
+                              <Card link={'products'} name={'Dual Tower Speaker'} image={'assets/images/latest/dual.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Drawbar Speaker'} image={'assets/images/latest/drawbar.webp'} />
+                              <Card link={'products'} name={'Drawbar Speaker'} image={'assets/images/latest/drawbar.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Fan'} image={'assets/images/latest/fan.webp'} />
+                              <Card link={'products'} name={'Fan'} image={'assets/images/latest/fan.webp'} />
                          </SwiperSlide>
                     </Swiper>
 
