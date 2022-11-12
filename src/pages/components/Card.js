@@ -3,7 +3,7 @@ import { MDBCard, MDBCardImage, MDBRipple, MDBCardFooter } from 'mdb-react-ui-ki
 
 export default function Card(props) {
      return (
-          <MDBCard className='mb-5'>
+          <MDBCard className=''>
                <MDBRipple rippleColor='light' rippleTag='div' className='bg-image hover-overlay'>
                     <MDBCardImage src={props.image} fluid alt='' />
                     <a href={'#!'}>

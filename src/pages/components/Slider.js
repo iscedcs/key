@@ -1,17 +1,24 @@
 import React from 'react';
 import { MDBCarousel, MDBCarouselInner, MDBCarouselItem, MDBCarouselElement } from 'mdb-react-ui-kit';
-import Slider1 from '../../assets/images/slider/slider1.webp'
-import Slider2 from '../../assets/images/slider/slider2.webp'
 
 export default function App() {
      return (
           <MDBCarousel showControls={true} interval={3000} >
                <MDBCarouselInner>
                     <MDBCarouselItem className='active'>
-                         <MDBCarouselElement src={Slider1} alt='...' />
+                         <MDBCarouselElement src={'assets/images/sliders/1.webp'} alt='...' />
                     </MDBCarouselItem>
                     <MDBCarouselItem>
-                         <MDBCarouselElement src={Slider2} alt='...' />
+                         <MDBCarouselElement src={'assets/images/sliders/4.webp'} alt='...' />
+                    </MDBCarouselItem>
+                    <MDBCarouselItem>
+                         <MDBCarouselElement src={'assets/images/sliders/2.webp'} alt='...' />
+                    </MDBCarouselItem>
+                    <MDBCarouselItem>
+                         <MDBCarouselElement src={'assets/images/sliders/5.webp'} alt='...' />
+                    </MDBCarouselItem>
+                    <MDBCarouselItem>
+                         <MDBCarouselElement src={'assets/images/sliders/3.webp'} alt='...' />
                     </MDBCarouselItem>
                </MDBCarouselInner>
           </MDBCarousel>

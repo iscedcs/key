@@ -98,84 +98,84 @@ export default function About() {
                                                   <MDBRow>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-01.png'
+                                                                 src='assets/images/companies/logos-01.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-02.png'
+                                                                 src='assets/images/companies/logos-02.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-03.png'
+                                                                 src='assets/images/companies/logos-03.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-04.png'
+                                                                 src='assets/images/companies/logos-04.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-05.png'
+                                                                 src='assets/images/companies/logos-05.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-06.png'
+                                                                 src='assets/images/companies/logos-06.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-07.png'
+                                                                 src='assets/images/companies/logos-07.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-08.png'
+                                                                 src='assets/images/companies/logos-08.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-09.png'
+                                                                 src='assets/images/companies/logos-09.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-10.png'
+                                                                 src='assets/images/companies/logos-10.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-11.png'
+                                                                 src='assets/images/companies/logos-11.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />
                                                        </MDBCol>
                                                        <MDBCol className='mb-4' size='6' sm='6' md='4' lg='3' xl='2'>
                                                             <img
-                                                                 src='assets/images/companies/logos-12.png'
+                                                                 src='assets/images/companies/logos-12.webp'
                                                                  className='img-thumbnail'
                                                                  alt='...'
                                                             />

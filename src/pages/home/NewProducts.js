@@ -44,7 +44,7 @@ export default function NewProducts() {
                               <Card name={'Smart TV'} image={'assets/images/latest/smart.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Home Theater Speaker'} image={'assets/images/latest/home.png'} />
+                              <Card name={'Home Theater Speaker'} image={'assets/images/latest/home.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
                               <Card name={'Dual Tower Speaker'} image={'assets/images/latest/dual.webp'} />

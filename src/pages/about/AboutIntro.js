@@ -1,25 +1,18 @@
-// import { MDBBtn } from 'mdb-react-ui-kit'
 import React from 'react'
 
 export default function AboutIntro() {
      return (
-          <>
-               <div
-                    className='p-5 text-center bg-image'
-                    style={{ backgroundImage: "url('assets/images/home/32/3.jpg')", height: '300px' }}
-               >
-                    {/* <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.6)' }}>
-                         <div className='d-flex justify-content-center align-items-center h-100'>
-                              <div className='text-white'>
-                                   <h1 className='mb-3'>Heading</h1>
-                                   <h4 className='mb-3'>Subheading</h4>
-                                   <MDBBtn tag="a" outline size="lg">
-                                        Call to action
-                                   </MDBBtn>
+          <div className='mt-0'>
+               <div className='text-center bg-image intros'>
+                    <div className='mask'>
+                         <div className='d-flex justify-content-start align-items-center h-100 container'>
+                              <div className='text-black'>
+                                   <h1 className='mb-3'>About MI+</h1>
+                                   <h5 className='mb-3'><a href='/' className='text-danger text-uppercase'>Home</a></h5>
                               </div>
                          </div>
-                    </div> */}
+                    </div>
                </div>
-          </>
+          </div>
      )
 }

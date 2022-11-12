@@ -14,12 +14,6 @@ import "./styles.css";
 // import required modules
 import { FreeMode, Navigation, Thumbs } from "swiper";
 
-import One from '../../assets/images/product/tv/43FZ1.jpg'
-import Two from '../../assets/images/product/tv/43FZ2.jpg'
-import Three from '../../assets/images/product/tv/43FZ3.jpg'
-import Four from '../../assets/images/product/tv/43FZ4.jpg'
-import Five from '../../assets/images/product/tv/43FZ5.jpg'
-
 export default function ProductSlider() {
      const [thumbsSwiper, setThumbsSwiper] = useState(null);
 
@@ -38,19 +32,19 @@ export default function ProductSlider() {
                     className="mySwiper2"
                >
                     <SwiperSlide>
-                         <img src={One} alt='...' />
+                         <img src={'assets/images/products/tv/43FZ1.webp'} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img src={Two} alt='...' />
+                         <img src={'assets/images/products/tv/43FZ2.webp'} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img src={Three} alt='...' />
+                         <img src={'assets/images/products/tv/43FZ3.webp'} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img src={Four} alt='...' />
+                         <img src={'assets/images/products/tv/43FZ4.webp'} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img src={Five} alt='...' />
+                         <img src={'assets/images/products/tv/43FZ5.webp'} alt='...' />
                     </SwiperSlide>
                </Swiper>
 
@@ -64,20 +58,20 @@ export default function ProductSlider() {
                     modules={[FreeMode, Navigation, Thumbs]}
                     className="mySwiper"
                >
-                    <SwiperSlide className="rounded">
-                         <img src={One} alt='...' />
+                    <SwiperSlide className="thumbnail">
+                         <img src={'assets/images/products/tv/43FZ1.webp'} alt='...' />
                     </SwiperSlide>
-                    <SwiperSlide>
-                         <img src={Two} alt='...' />
+                    <SwiperSlide className="thumbnail">
+                         <img src={'assets/images/products/tv/43FZ2.webp'} alt='...' />
                     </SwiperSlide>
-                    <SwiperSlide>
-                         <img src={Three} alt='...' />
+                    <SwiperSlide className="thumbnail">
+                         <img src={'assets/images/products/tv/43FZ3.webp'} alt='...' />
                     </SwiperSlide>
-                    <SwiperSlide>
-                         <img src={Four} alt='...' />
+                    <SwiperSlide className="thumbnail">
+                         <img src={'assets/images/products/tv/43FZ4.webp'} alt='...' />
                     </SwiperSlide>
-                    <SwiperSlide>
-                         <img src={Five} alt='...' />
+                    <SwiperSlide className="thumbnail">
+                         <img src={'assets/images/products/tv/43FZ5.webp'} alt='...' />
                     </SwiperSlide>
                </Swiper>
           </>

@@ -41,7 +41,7 @@ export default function Contact() {
                                                   </MDBCol>
                                                   <MDBCol size='10'>
                                                        <h6>Phone</h6>
-                                                       <a href="tel://+00123456789 ">+00 123 456 789</a> <br />
+                                                       <a className='text-danger' href="tel://+2348068790541 ">+234 806 879 0541</a> <br />
                                                   </MDBCol>
                                              </MDBRow>
 
@@ -51,7 +51,7 @@ export default function Contact() {
                                                   </MDBCol>
                                                   <MDBCol size='10'>
                                                        <h6>Email</h6>
-                                                       <a href="mailto://info@hello-mi.com">info@hello-mi.com</a> <br />
+                                                       <a className='text-danger' href="mailto://info@hello-mi.com">info@hello-mi.com</a> <br />
 
                                                   </MDBCol>
                                              </MDBRow>

@@ -1,6 +1,7 @@
 .swiper {
      width: 100%;
-     height: 100%;;
+     height: 100%;
+     ;
 }
 
 .swiper-slide {
@@ -34,7 +35,7 @@
 
 .swiper {
      width: 100%;
-     height: 300px;
+     min-height: 300px;
      margin-left: auto;
      margin-right: auto;
 }
@@ -45,7 +46,7 @@
 }
 
 .mySwiper2 {
-     height: 80%;
+     height: 70%;
      width: 100%;
 }
 
@@ -55,9 +56,9 @@
      padding: 10px 0;
 }
 
-.mySwiper .swiper-slide {
+.mySwiper .thumbnail {
      width: 25%;
-     height: 100%;
+     height: 25%;
      opacity: 0.8;
 }
 

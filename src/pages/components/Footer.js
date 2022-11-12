@@ -76,7 +76,7 @@ export default function Footer() {
                                         info@hello-mi.com
                                    </p>
                                    <p>
-                                        <MDBIcon icon="phone" className="me-3" /> + 01 234 567 88
+                                        <MDBIcon icon="phone" className="me-3" /> +234 806 879 0541
                                    </p>
                               </MDBCol>
                          </MDBRow>
