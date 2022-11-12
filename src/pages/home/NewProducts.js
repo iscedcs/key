@@ -7,10 +7,6 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import { MDBContainer, MDBTypography } from 'mdb-react-ui-kit';
 import Card from '../components/Card';
-import One from '../../assets/images/tvtypes/one.png'
-import Two from '../../assets/images/home_theater_speaker/MIG802S.webp'
-import Three from '../../assets/images/dual_tower_speaker/MID8026.webp'
-import Four from '../../assets/images/drawbar_speaker/MITS048.webp'
 
 export default function NewProducts() {
      SwiperCore.use([Autoplay])
@@ -42,16 +38,22 @@ export default function NewProducts() {
                          }}
                     >
                          <SwiperSlide>
-                              <Card name={'Smart TV'} image={One} />
+                              <Card name={'LED TV'} image={'assets/images/latest/LED.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Home Theater Speaker'} image={Two} />
+                              <Card name={'Smart TV'} image={'assets/images/latest/smart.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Dual Tower Speaker'} image={Three} />
+                              <Card name={'Home Theater Speaker'} image={'assets/images/latest/home.png'} />
                          </SwiperSlide>
                          <SwiperSlide>
-                              <Card name={'Drawbar Speaker'} image={Four} />
+                              <Card name={'Dual Tower Speaker'} image={'assets/images/latest/dual.webp'} />
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <Card name={'Drawbar Speaker'} image={'assets/images/latest/drawbar.webp'} />
+                         </SwiperSlide>
+                         <SwiperSlide>
+                              <Card name={'Fan'} image={'assets/images/latest/fan.webp'} />
                          </SwiperSlide>
                     </Swiper>
 
