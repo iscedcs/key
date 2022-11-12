@@ -38,7 +38,7 @@ export default function NewProducts() {
                          }}
                     >
                          <SwiperSlide>
-                              <Card name={'LED TV'} image={'assets/images/latest/LED.webp'} />
+                              <Card name={'LED TV'} image={'assets/images/latest/led.webp'} />
                          </SwiperSlide>
                          <SwiperSlide>
                               <Card name={'Smart TV'} image={'assets/images/latest/smart.webp'} />
