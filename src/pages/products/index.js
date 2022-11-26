@@ -82,13 +82,7 @@ export default function Products() {
                                              <td><a className='text-dark' href='#televisions'>TELEVISIONS</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-dark' href='#home_theater_speaker'>HOME THEATER SPEAKER</a></td>
-                                        </tr>
-                                        <tr>
-                                             <td><a className='text-dark' href='#dual_tower-speaker'>DUAL TOWER SPEAKER</a></td>
-                                        </tr>
-                                        <tr>
-                                             <td><a className='text-dark' href='#drawbar_speaker'>DRAWBAR SPEAKER</a></td>
+                                             <td><a className='text-dark' href='#sound_systems'>SOUND SYSTEMS</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
@@ -105,7 +99,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI50DV6A}
@@ -113,10 +107,8 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI50DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
+                                                                      <div className="text-center">MI50DV6A - 50"</div>
+                                                                      {/* <div className="text-center">
                                                                            <div
                                                                                 className="p-3 mx-n3 mb-4"
                                                                                 style={{ backgroundColor: "#eff1f2" }}
@@ -133,9 +125,9 @@ export default function Products() {
                                                                                 <li>Size: 77.5*12.3*47.5cm</li>
                                                                                 <li>Weight: 4.5KG</li>
                                                                            </div>
-                                                                      </div>
+                                                                      </div> */}
 
-                                                                      <div className="d-flex flex-row">
+                                                                      {/* <div className="d-flex flex-row">
 
                                                                            <a
                                                                                 color="dark"
@@ -146,11 +138,11 @@ export default function Products() {
                                                                                 Learn more
                                                                            </a>
 
-                                                                      </div>
+                                                                      </div> */}
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI50DF1A}
@@ -158,44 +150,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI50DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI50DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI75DV6A}
@@ -203,44 +162,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI75DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI75DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI43DV6A}
@@ -248,44 +174,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI43DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI43DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI55DV6A}
@@ -293,44 +186,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI55DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI55DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI32DV6A}
@@ -338,44 +198,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI32DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI32DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI32DF1A}
@@ -383,44 +210,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI32DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI32DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI65DV6A}
@@ -428,44 +222,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI65DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI65DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI75DF1A}
@@ -473,44 +234,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI75DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI75DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI85DV3A}
@@ -518,44 +246,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI85DV3A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI85DV3A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI24DV6A}
@@ -563,44 +258,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI24DV6A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI24DV6A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI65DF1A}
@@ -608,44 +270,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI65DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI65DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI55DF1A}
@@ -653,44 +282,11 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI55DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI55DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MI43DF1A}
@@ -698,40 +294,7 @@ export default function Products() {
                                                                       alt="iPhone"
                                                                  />
                                                                  <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MI43DF1A</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
+                                                                      <div className="text-center">MI43DF1A - 50"</div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
@@ -740,7 +303,7 @@ export default function Products() {
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4' id='home_theater_speaker'>
+                              <MDBTable className='mb-4' id='sound_systems'>
                                    <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>HOME THEATER SPEAKER</th>
@@ -750,7 +313,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIG802S}
@@ -761,7 +324,7 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIG802S</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
+                                                                      {/* <div className="text-center">
                                                                            <div
                                                                                 className="p-3 mx-n3 mb-4"
                                                                                 style={{ backgroundColor: "#eff1f2" }}
@@ -794,11 +357,11 @@ export default function Products() {
                                                                                 Learn more
                                                                            </a>
 
-                                                                      </div>
+                                                                      </div> */}
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIG803S}
@@ -809,44 +372,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIG803S</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL601A}
@@ -857,44 +386,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL601A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL602A}
@@ -905,44 +400,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL602A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL603A}
@@ -953,44 +414,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL603A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H360 * W215 * D280mm for Subwoofer<br />
-                                                                                     H360 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL604A}
@@ -1001,44 +428,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL604A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H360 * W215 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL605A}
@@ -1049,44 +442,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL605A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIL606A}
@@ -1097,44 +456,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIL606A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H360 * W215 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIM601A}
@@ -1145,45 +470,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIM601A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIM602A}
@@ -1194,45 +484,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIM602A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIM603A}
@@ -1243,45 +498,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIM603A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIM604A}
@@ -1292,45 +512,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIM604A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MIM605A}
@@ -1341,40 +526,47 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MIM605A</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MID8016}
+                                                                      position="top"
+                                                                      alt="iPhone"
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MID8016</MDBCardTitle>
                                                                       </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MID8026}
+                                                                      position="top"
+                                                                      alt="iPhone"
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MID8026</MDBCardTitle>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MID8036}
+                                                                      position="top"
+                                                                      alt="iPhone"
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MID8036</MDBCardTitle>
                                                                       </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
@@ -1394,152 +586,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8016}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8016</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
 
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8026}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8026</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: %0W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>Power Supply: AC 110V-240V (50Hz-60Hz)</li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H370 * W235 * D280mm for Subwoofer<br />
-                                                                                     H370 * W100 * D80mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8036}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8036</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
                                                   </MDBRow>
                                              </td>
                                         </tr>
@@ -1555,7 +602,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS108}
@@ -1566,44 +613,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS108</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS098}
@@ -1614,44 +627,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS098</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS048}
@@ -1662,44 +641,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS048</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS068}
@@ -1710,44 +655,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS068</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS028}
@@ -1758,44 +669,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS028</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS038}
@@ -1806,44 +683,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS038</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS088}
@@ -1854,44 +697,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS088</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS148}
@@ -1902,44 +711,10 @@ export default function Products() {
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS148</MDBCardTitle>
                                                                       </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
                                                        </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
+                                                       <MDBCol md="3" className="mb-4">
                                                             <MDBCard className="text-dark">
                                                                  <MDBCardImage
                                                                       src={MITS018}
@@ -1949,40 +724,6 @@ export default function Products() {
                                                                  <MDBCardBody>
                                                                       <div className="text-center mt-1">
                                                                            <MDBCardTitle className="h4">MITS018</MDBCardTitle>
-                                                                      </div>
-                                                                      <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
                                                                       </div>
                                                                  </MDBCardBody>
                                                             </MDBCard>
