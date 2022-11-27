@@ -1,9 +1,6 @@
 import {
-     // MDBBtn, 
-     MDBCard, MDBCardBody, MDBCardImage,
-     // MDBCardTitle, 
+     MDBCard, MDBCardImage,
      MDBCol, MDBContainer,
-     // MDBIcon,
      MDBRow, MDBTable, MDBTableBody, MDBTableHead
 } from 'mdb-react-ui-kit'
 import React from 'react'
@@ -107,7 +104,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -115,13 +112,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI50DV6A - 50"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI50DV6A - 50"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -129,13 +124,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI50DF1A - 50"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI50DF1A - 50"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -143,13 +136,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI75DV6A - 75"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI75DV6A - 75"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -157,13 +148,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI43DV6A - 43"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI43DV6A - 43"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -171,13 +160,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI55DV6A - 55"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI55DV6A - 55"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -185,13 +172,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI32DV6A - 32"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI32DV6A - 32"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -199,13 +184,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI32DF1A - 32"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI32DF1A - 32"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -213,13 +196,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI65DV6A - 65"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI65DV6A - 65"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -227,13 +208,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI75DF1A - 75"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI75DF1A - 75"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -241,13 +220,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI85DV3A - 85"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI85DV3A - 85"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -255,13 +232,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI24DV6A - 24"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI24DV6A - 24"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -269,13 +244,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI65DF1A - 65"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI65DF1A - 65"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -283,13 +256,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI55DF1A - 55"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI55DF1A - 55"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -297,9 +268,7 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MI43DF1A - 43"</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MI43DF1A - 43"</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
@@ -318,7 +287,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -326,47 +295,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIG802S</div>
-                                                                           {/* <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Subwoofer: 6.5 inch</li>
-                                                                                <li>Satellite: 3 inch*3</li>
-                                                                                <li>Output Power: 40W (Subwoofer) + 10W (speaker) * 3 </li>
-                                                                                <li>With digital amplifier</li>
-                                                                                <li>With Bluetooth / FM / USB / MP3 / SD / AUX / remote control</li>
-                                                                                <li>
-                                                                                     Dimension:<br />
-                                                                                     H340 * W200 * D280mm for Subwoofer<br />
-                                                                                     H330 * W100 * D60mm for Satellites
-                                                                                </li>
-                                                                           </div>
-                                                                      </div>
-
-                                                                      <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/sound_systems'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div> */}
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIG802S</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -374,13 +307,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIG803S</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIG803S</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -388,13 +319,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL601A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL601A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -402,13 +331,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL602A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL602A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -416,13 +343,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL603A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL603A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -430,13 +355,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL604A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL604A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -444,13 +367,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL605A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL605A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -458,13 +379,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIL606A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIL606A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -472,13 +391,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIM601A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIM601A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -486,13 +403,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIM602A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIM602A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -500,13 +415,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIM603A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIM603A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -514,13 +427,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIM604A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIM604A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -528,9 +439,7 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MIM605A</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MIM605A</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
@@ -549,7 +458,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -557,13 +466,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MID8016</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MID8016</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -571,13 +478,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MID8026</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MID8026</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -585,9 +490,7 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MID8036</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MID8036</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
@@ -606,7 +509,7 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -614,13 +517,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS108</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS108</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -628,13 +529,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS098</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS098</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -642,13 +541,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS048</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS048</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -656,13 +553,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS068</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS068</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -670,13 +565,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS028</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS028</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -684,13 +577,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS038</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS038</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -698,13 +589,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS088</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS088</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -712,13 +601,11 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS148</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS148</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
+                                                       <MDBCol md="2" className="mb-4">
                                                             <a href='/sound_systems'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
@@ -726,9 +613,7 @@ export default function Products() {
                                                                            position="top"
                                                                            alt=""
                                                                       />
-                                                                      <MDBCardBody>
-                                                                           <div className="text-center">MITS018</div>
-                                                                      </MDBCardBody>
+                                                                      <div className="fw-bold text-center">MITS018</div>
                                                                  </MDBCard>
                                                             </a>
                                                        </MDBCol>
@@ -738,11 +623,11 @@ export default function Products() {
                                    </MDBTableBody>
                               </MDBTable>
                          </MDBCol>
-                    </MDBRow>
-               </MDBContainer>
+                    </MDBRow >
+               </MDBContainer >
 
                <Footer />
-          </section>
+          </section >
      )
 
      function setTitle() {
