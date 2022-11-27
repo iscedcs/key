@@ -17,8 +17,8 @@ function App() {
 					<Route path="about" element={<About />} />
 					<Route path="contact" element={<Contact />} />
 					<Route path="products" element={<Products />} />
-					<Route path="43" element={<Product43 />} />
-					<Route path="32" element={<Product32 />} />
+					<Route path="sound_systems" element={<Product43 />} />
+					<Route path="televisions" element={<Product32 />} />
 					<Route path="*" element={<Error404 />} />
 				</Routes>
 			</BrowserRouter>

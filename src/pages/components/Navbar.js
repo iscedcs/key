@@ -34,19 +34,19 @@ export default function Navbar() {
                                         <MDBDropdownMenu className='bg-black text-white' style={{ zIndex: '10000' }}>
                                              <MDBRow className='text-center'>
                                                   <MDBCol>
-                                                       <MDBNavbarLink className='text-white' href="32">
-                                                            <img src='assets/images/latest/led.webp' alt='LED' height={250} />
-                                                            <div>MI+ 32" LED TV</div>
+                                                       <MDBNavbarLink className='text-white' href="televisions">
+                                                            <img src='assets/images/latest/led43.webp' alt='LED' height={250} />
+                                                            <div>Televisions</div>
                                                        </MDBNavbarLink>
                                                   </MDBCol>
                                                   <MDBCol>
-                                                       <MDBNavbarLink className='text-white' href="43">
-                                                            <img src='assets/images/latest/led43.webp' alt='LED' height={250} />
-                                                            <div>MI+ 43" LED TV</div>
+                                                       <MDBNavbarLink className='text-white' href="sound_systems">
+                                                            <img src='assets/images/latest/home.webp' alt='LED' height={250} />
+                                                            <div>Sound Systems</div>
                                                        </MDBNavbarLink>
                                                   </MDBCol>
                                              </MDBRow>
-                                             <MDBNavbarLink className='text-white w-100 text-center' href="products">MI+ ALL PRODUCTS</MDBNavbarLink>
+                                             <MDBNavbarLink className='text-white w-100 text-center' href="products">Other Products</MDBNavbarLink>
                                         </MDBDropdownMenu>
                                    </MDBDropdown>
                               </MDBNavbarItem>

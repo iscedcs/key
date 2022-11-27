@@ -23,7 +23,6 @@ export default function Error404() {
                                              className="m-2 bg-danger"
                                              tag="a"
                                              size="lg"
-                                             target="_blank"
                                              href='/'
                                         >
                                              Home Page

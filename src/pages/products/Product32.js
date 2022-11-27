@@ -9,24 +9,23 @@ export default function Product32() {
      return (
           <section className='bg-light'>
                <Navbar />
+               <div className='w-100 p-2 bg-white'>
+                    <div className="container h5 text-center">
+                         TELEVISIONS
+                    </div>
+               </div>
                <MDBContainer className='py-5'>
-                    <MDBTypography
-                         variant='h1'
-                         className='pt-5 text-center'
-                    >
-                         MI+ 32" LED TV
-                    </MDBTypography>
                     <MDBRow className='mt-3'>
                          <MDBCol sm={12} md={6}>
                               <ProductSlider />
                          </MDBCol>
                          <MDBCol sm={12} md={6} className='px-5'>
-                              <MDBTypography tag='h3' className='fw-bold'>4K MI32DF1A LED TV</MDBTypography>
-                              <MDBTypography tag='small' className='lead mb-3'>MI32DF1A-401BBY</MDBTypography>
+                              <MDBTypography tag='h3' className='fw-bold'>4K LED TV</MDBTypography>
+                              <MDBTypography tag='small' className='lead mb-3'>Specifications</MDBTypography>
                               <MDBTypography listUnStyled className='mb-4'>
                                    <ul>
                                         <li>Panel Manufacturer:			HKC</li>
-                                        <li>Dimensions:			  32"</li>
+                                        <li>Dimensions:			  32", 43"</li>
                                         <li>Aspect ratio:			16:9</li>
                                         <li>Resolving power:			1366*768</li>
                                         <li>Brightness:			200+20</li>
@@ -49,12 +48,18 @@ export default function Product32() {
                          </MDBCol>
                     </MDBRow>
                </MDBContainer>
+               <img src='assets/images/sliders/3.webp' alt='' width={'100%'} />
                <section className=''>
                     <div className='w-100'>
-                         <img src='assets/images/home/32/P1.webp' alt='' width={'100%'} />
-                         <img src='assets/images/home/32/P2.webp' alt='' width={'100%'} />
                          <img src='assets/images/home/32/P3.webp' alt='' width={'100%'} />
-                         <img src='assets/images/home/32/P4.webp' alt='' width={'100%'} />
+                         <div className='row'>
+                              <div className="col-md">
+                                   <img src='assets/images/home/32/P4.webp' alt='' width={'100%'} />
+                              </div>
+                              <div className="col-md">
+                                   <img src='assets/images/home/43/5.webp' alt='' width={'100%'} />
+                              </div>
+                         </div>
                          <img src='assets/images/home/32/P5.webp' alt='' width={'100%'} />
                          <img src='assets/images/home/32/P6.webp' alt='' width={'100%'} />
                     </div>
@@ -64,6 +69,6 @@ export default function Product32() {
      )
 
      function setTitle() {
-          return "32 Inches Product Info";
+          return "MI+ TVs";
      }
 }

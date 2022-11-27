@@ -1,6 +1,8 @@
 import {
      // MDBBtn, 
-     MDBCard, MDBCardBody, MDBCardImage, MDBCardTitle, MDBCol, MDBContainer,
+     MDBCard, MDBCardBody, MDBCardImage,
+     // MDBCardTitle, 
+     MDBCol, MDBContainer,
      // MDBIcon,
      MDBRow, MDBTable, MDBTableBody, MDBTableHead
 } from 'mdb-react-ui-kit'
@@ -82,7 +84,13 @@ export default function Products() {
                                              <td><a className='text-dark' href='#televisions'>TELEVISIONS</a></td>
                                         </tr>
                                         <tr>
-                                             <td><a className='text-dark' href='#sound_systems'>SOUND SYSTEMS</a></td>
+                                             <td><a className='text-dark' href='#home_theater_speaker'>HOME THEATER SPEAKER</a></td>
+                                        </tr>
+                                        <tr>
+                                             <td><a className='text-dark' href='#dual_tower-speaker'>DUAL TOWER SPEAKER</a></td>
+                                        </tr>
+                                        <tr>
+                                             <td><a className='text-dark' href='#drawbar_speaker'>DRAWBAR SPEAKER</a></td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
@@ -100,210 +108,207 @@ export default function Products() {
                                              <td>
                                                   <MDBRow>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI50DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI50DV6A - 50"</div>
-                                                                      {/* <div className="text-center">
-                                                                           <div
-                                                                                className="p-3 mx-n3 mb-4"
-                                                                                style={{ backgroundColor: "#eff1f2" }}
-                                                                           >
-                                                                                <h5 className="mb-0">Specification</h5>
-                                                                           </div>
-
-                                                                           <div className="d-flex flex-column mb-4 text-start">
-                                                                                <li>Dimensions: 32 & 43 inches</li>
-                                                                                <li>Aspect ratio: 16:9</li>
-                                                                                <li>Resolving power: 1366 * 768</li>
-                                                                                <li>Sound system: B/G,D/K,I</li>
-                                                                                <li>Video input: PAL,SECAM, NTSC</li>
-                                                                                <li>Size: 77.5*12.3*47.5cm</li>
-                                                                                <li>Weight: 4.5KG</li>
-                                                                           </div>
-                                                                      </div> */}
-
-                                                                      {/* <div className="d-flex flex-row">
-
-                                                                           <a
-                                                                                color="dark"
-                                                                                ripplecolor="white"
-                                                                                className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
-                                                                           >
-                                                                                Learn more
-                                                                           </a>
-
-                                                                      </div> */}
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI50DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI50DV6A - 50"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI50DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI50DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI50DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI50DF1A - 50"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI75DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI75DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI75DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI75DV6A - 75"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI43DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI43DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI43DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI43DV6A - 43"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI55DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI55DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI55DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI55DV6A - 55"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI32DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI32DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI32DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI32DV6A - 32"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI32DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI32DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI32DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI32DF1A - 32"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI65DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI65DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI65DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI65DV6A - 65"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI75DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI75DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI75DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI75DF1A - 75"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI85DV3A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI85DV3A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI85DV3A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI85DV3A - 85"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI24DV6A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI24DV6A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI24DV6A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI24DV6A - 24"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI65DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI65DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI65DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI65DF1A - 65"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI55DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI55DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI55DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI55DF1A - 55"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MI43DF1A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center">MI43DF1A - 50"</div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/televisions'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MI43DF1A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MI43DF1A - 43"</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                   </MDBRow>
                                              </td>
                                         </tr>
                                    </MDBTableBody>
                               </MDBTable>
-                              <MDBTable className='mb-4' id='sound_systems'>
+                              <MDBTable className='mb-4' id='home_theater_speaker'>
                                    <MDBTableHead className='bg-black'>
                                         <tr>
                                              <th className='text-white' scope='col'>HOME THEATER SPEAKER</th>
@@ -314,17 +319,16 @@ export default function Products() {
                                              <td>
                                                   <MDBRow>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIG802S}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIG802S</MDBCardTitle>
-                                                                      </div>
-                                                                      {/* <div className="text-center">
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIG802S}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIG802S</div>
+                                                                           {/* <div className="text-center">
                                                                            <div
                                                                                 className="p-3 mx-n3 mb-4"
                                                                                 style={{ backgroundColor: "#eff1f2" }}
@@ -352,224 +356,183 @@ export default function Products() {
                                                                                 color="dark"
                                                                                 ripplecolor="white"
                                                                                 className="flex-fill ms-1 btn bg-black text-white"
-                                                                                href='/#!'
+                                                                                href='/sound_systems'
                                                                            >
                                                                                 Learn more
                                                                            </a>
 
                                                                       </div> */}
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIG803S}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIG803S</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIG803S}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIG803S</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL601A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL601A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL601A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL601A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL602A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL602A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL602A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL602A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL603A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL603A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL603A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL603A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL604A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL604A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL604A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL604A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL605A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL605A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL605A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL605A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIL606A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIL606A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIL606A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIL606A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIM601A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIM601A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIM601A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIM601A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIM602A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIM602A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIM602A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIM602A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIM603A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIM603A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIM603A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIM603A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIM604A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIM604A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIM604A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIM604A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MIM605A}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MIM605A</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8016}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8016</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8026}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8026</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
-                                                       </MDBCol>
-                                                       <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MID8036}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MID8036</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MIM605A}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MIM605A</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                   </MDBRow>
                                              </td>
@@ -586,7 +549,48 @@ export default function Products() {
                                         <tr>
                                              <td>
                                                   <MDBRow>
-
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MID8016}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MID8016</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
+                                                       </MDBCol>
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MID8026}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MID8026</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
+                                                       </MDBCol>
+                                                       <MDBCol md="3" className="mb-4">
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MID8036}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MID8036</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
+                                                       </MDBCol>
                                                   </MDBRow>
                                              </td>
                                         </tr>
@@ -603,130 +607,130 @@ export default function Products() {
                                              <td>
                                                   <MDBRow>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS108}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS108</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS108}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS108</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS098}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS098</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS098}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS098</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS048}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS048</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS048}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS048</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS068}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS068</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS068}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS068</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS028}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS028</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS028}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS028</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS038}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS038</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS038}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS038</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS088}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS088</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS088}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS088</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS148}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS148</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS148}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS148</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="3" className="mb-4">
-                                                            <MDBCard className="text-dark">
-                                                                 <MDBCardImage
-                                                                      src={MITS018}
-                                                                      position="top"
-                                                                      alt="iPhone"
-                                                                 />
-                                                                 <MDBCardBody>
-                                                                      <div className="text-center mt-1">
-                                                                           <MDBCardTitle className="h4">MITS018</MDBCardTitle>
-                                                                      </div>
-                                                                 </MDBCardBody>
-                                                            </MDBCard>
+                                                            <a href='/sound_systems'>
+                                                                 <MDBCard className="text-dark">
+                                                                      <MDBCardImage
+                                                                           src={MITS018}
+                                                                           position="top"
+                                                                           alt=""
+                                                                      />
+                                                                      <MDBCardBody>
+                                                                           <div className="text-center">MITS018</div>
+                                                                      </MDBCardBody>
+                                                                 </MDBCard>
+                                                            </a>
                                                        </MDBCol>
                                                   </MDBRow>
                                              </td>
