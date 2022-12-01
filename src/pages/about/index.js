@@ -47,8 +47,8 @@ export default function About() {
                                         <tr>
                                              <td>
                                                   <p className="">Do you long for the childhood fantasies you relish in every time you sit in front of your TV? Do you feel a wave of satisfaction when the speaker is blasting, fan on full swing,a snack in hand with a can of your favourite drink?</p>
-                                                  <p className="">This is what MI+ strives to recreate every time you pick one of our product. In the meantime, our brand introduction is in order; MI+ is an electronics brand that provides high quality Home Appliances that would bring life to every home. We produce TV Sets, Audio Sound Systems, Fans, Speakers, and so much more. Our products are of a premium quality, easy to navigate,  budget friendly and ultimately perfect for every home.</p>
-                                                  <p className="">Finally, that gap between price and quality can finally be bridged. We don’t end our journey with you simply after purchase, we build a lasting relationship with you. With our top notch after-sale services which includes; An amazing free set up by our Service Engineers, Diagnostic , repair and replacement of parts at no cost to you within warranty. We are better placed to take you through your favourite Childhood moments. Who says memories cannot be recreated?</p>
+                                                  <p className="">This is what MI+ strives to recreate every time you pick one of our product. In the meantime, our brand introduction is in order; MI+ is an electronics brand that provides high quality Home Appliances that would bring beauty and color to every home. We produce TV Sets, Audio Sound Systems, Fans, Speakers, and so much more. Our products are of a premium quality, easy to navigate,  budget friendly and ultimately perfect for every home.</p>
+                                                  <p className="">Finally, that gap between price and quality can be bridged. We don’t end our journey with you simply after purchase, we build a lasting relationship with you. With our top notch after-sale services which includes; An amazing free set up by our Service Engineers, Diagnostic , repair and replacement of parts at no cost to you within warranty period. We are better placed to take you through your favourite Childhood moments. Who says memories cannot be recreated?</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>
@@ -63,7 +63,7 @@ export default function About() {
                                         <tr>
                                              <td>
                                                   <p className="">We have a team of Nigerian and Chinese experts that are at the fore front of this great company. </p>
-                                                  <p className="">After over two decades in the Home Appliances Production and Supply Value Chain, we are most confident that we have cracked the secret of combining quality and affordability to give our consumers the most wonderful experience in our products.</p>
+                                                  <p className="">After over two decades in the Home Appliances Production and Supply Value Chain, we are most confident that we have cracked the secret of combining quality and affordability to give our end consumers the most wonderful experience in our products.</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>
@@ -77,9 +77,9 @@ export default function About() {
                                    <MDBTableBody>
                                         <tr>
                                              <td>
-                                                  <p className="">Paying a great deal of attention to Quality and safety standards we also believe in Fun & Entertainment: A night in front of the TV, some family time, or catching up on your favourite TV shows.</p>
+                                                  <p className="">Paying a great deal of attention to quality and safety standards we also believe in Fun & Entertainment - A night in front of the TV, some family time, or catching up on your favourite TV shows.</p>
                                                   <p className="">We wouldn't let you go through the troubles of changing your appliances every few years, or fixing something every few months. We got you covered in that.</p>
-                                                  <p className="">We believe in end consumers satisfaction, knowing the simple things in life should be accessible to all.</p>
+                                                  <p className="">We believe in our teeming end consumers satisfaction, knowing the simple things in life should be accessible to all.</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>

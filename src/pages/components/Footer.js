@@ -89,6 +89,9 @@ export default function Footer() {
                          MI + Electronics
                     </a>
                </div>
+               <div className='text-center p-4' style={{ backgroundColor: 'rgba(255, 255, 255, 0.2)' }}>
+                    {'Leading Professional For Electronics Manufacture In Nigeria'}
+               </div>
           </MDBFooter>
      );
 }
