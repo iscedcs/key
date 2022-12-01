@@ -46,10 +46,9 @@ export default function About() {
                                    <MDBTableBody className=''>
                                         <tr>
                                              <td>
-                                                  MI Plus is an electronics brand. We provide high quality Home Appliances for very affordable rates. Our TV sets are user friendly, budget friendly, and perfect for every home.
-                                                  We strive to provide good quality appliances at affordable rates.
-                                                  We offer Prompt Aftersales Services, Service Engineers to set up for you, One Year Warranty, and so much more.
-                                                  You can finally stop buying overpriced appliances, we have got you covered.
+                                                  <p className="">Do you long for the childhood fantasies you relish in every time you sit in front of your TV? Do you feel a wave of satisfaction when the speaker is blasting, fan on full swing,a snack in hand with a can of your favourite drink?</p>
+                                                  <p className="">This is what MI+ strives to recreate every time you pick one of our product. In the meantime, our brand introduction is in order; MI+ is an electronics brand that provides high quality Home Appliances that would bring life to every home. We produce TV Sets, Audio Sound Systems, Fans, Speakers, and so much more. Our products are of a premium quality, easy to navigate,  budget friendly and ultimately perfect for every home.</p>
+                                                  <p className="">Finally, that gap between price and quality can finally be bridged. We don’t end our journey with you simply after purchase, we build a lasting relationship with you. With our top notch after-sale services which includes; An amazing free set up by our Service Engineers, Diagnostic , repair and replacement of parts at no cost to you within warranty. We are better placed to take you through your favourite Childhood moments. Who says memories cannot be recreated?</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>
@@ -63,9 +62,8 @@ export default function About() {
                                    <MDBTableBody className=''>
                                         <tr>
                                              <td>
-                                                  The vision is headed by Mr. Tommy. He started working in the TV production industry at the age of 18.
-                                                  After creating standard TV sets for over 20 years, he has decided to create a brand that would be accessible to all.
-                                                  Using his vast experience, Mr. Tommy has found a good way to combine quality and affordability to give users the most wonderful experience.
+                                                  <p className="">We have a team of Nigerian and Chinese experts that are at the fore front of this great company. </p>
+                                                  <p className="">After over two decades in the Home Appliances Production and Supply Value Chain, we are most confident that we have cracked the secret of combining quality and affordability to give our consumers the most wonderful experience in our products.</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>
@@ -79,9 +77,9 @@ export default function About() {
                                    <MDBTableBody>
                                         <tr>
                                              <td>
-                                                  We believe in quality fun and entertainment: A night in front of the TV, some family time, or catching up on your favourite TV shows.
-                                                  We believe in Durability. Don’t go through the stress of changing your appliances every few years, or fixing something every few months. We provide durable appliances.
-                                                  We believe in affordability. The simple things in life should be accessible to all.
+                                                  <p className="">Paying a great deal of attention to Quality and safety standards we also believe in Fun & Entertainment: A night in front of the TV, some family time, or catching up on your favourite TV shows.</p>
+                                                  <p className="">We wouldn't let you go through the troubles of changing your appliances every few years, or fixing something every few months. We got you covered in that.</p>
+                                                  <p className="">We believe in end consumers satisfaction, knowing the simple things in life should be accessible to all.</p>
                                              </td>
                                         </tr>
                                    </MDBTableBody>

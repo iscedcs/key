@@ -34,10 +34,14 @@ export default function ProductSlider43() {
                     className="mySwiper2"
                >
                     <SwiperSlide>
-                         <img src={Slider43_1} alt='...' />
+                         <img style={{
+                              objectFit: 'contain'
+                         }} src={Slider43_1} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
-                         <img src={Slider43_2} alt='...' />
+                         <img style={{
+                              objectFit: 'contain'
+                         }} src={Slider43_2} alt='...' />
                     </SwiperSlide>
                     <SwiperSlide>
                          <img src={'assets/images/products/tv/43FZ3.webp'} alt='...' />

@@ -45,19 +45,19 @@ import MITS018 from '../../assets/images/drawbar_speaker/MITS018.webp'
 
 // Home theater speaker
 import MI50DV6A from '../../assets/images/televisions/MI50DV6A.webp'
-import MI50DF1A from '../../assets/images/televisions/MI50DF1A.webp'
-import MI75DV6A from '../../assets/images/televisions/MI75DV6A.webp'
+// import MI50DF1A from '../../assets/images/televisions/MI50DF1A.webp'
+// import MI75DV6A from '../../assets/images/televisions/MI75DV6A.webp'
 import MI43DV6A from '../../assets/images/televisions/MI43DV6A.webp'
 import MI55DV6A from '../../assets/images/televisions/MI55DV6A.webp'
 import MI32DV6A from '../../assets/images/televisions/MI32DV6A.webp'
-import MI32DF1A from '../../assets/images/televisions/MI32DF1A.webp'
-import MI65DV6A from '../../assets/images/televisions/MI65DV6A.webp'
+// import MI32DF1A from '../../assets/images/televisions/MI32DF1A.webp'
+// import MI65DV6A from '../../assets/images/televisions/MI65DV6A.webp'
 import MI75DF1A from '../../assets/images/televisions/MI75DF1A.webp'
 import MI85DV3A from '../../assets/images/televisions/MI85DV3A.webp'
 import MI24DV6A from '../../assets/images/televisions/MI24DV6A.webp'
 import MI65DF1A from '../../assets/images/televisions/MI65DF1A.webp'
-import MI55DF1A from '../../assets/images/televisions/MI55DF1A.webp'
-import MI43DF1A from '../../assets/images/televisions/MI43DF1A.webp'
+// import MI55DF1A from '../../assets/images/televisions/MI55DF1A.webp'
+// import MI43DF1A from '../../assets/images/televisions/MI43DF1A.webp'
 
 
 export default function Products() {
@@ -106,22 +106,288 @@ export default function Products() {
                                              <td>
                                                   <MDBRow>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI50DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI50DV6A - 50"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI24DV6A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI24DV6A - 24"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 24 inches</li>
+                                                                                <li>Power Consuption: ≤28w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 1W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 1366 * 768</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 571*170*387mm</li>
+                                                                                <li>Weight: 4KG with base</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI32DV6A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI32DV6A - 32"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 32 inches</li>
+                                                                                <li>Power Consuption: 50w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 1920 * 1080</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 77.5*12.3*47.5cm</li>
+                                                                                <li>Weight: 5.7KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI43DV6A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI43DV6A - 43"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 43 inches</li>
+                                                                                <li>Power Consuption: 90w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 1920 * 1080</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 969*208*615mm</li>
+                                                                                <li>Weight: 9.5KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI50DV6A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI50DV6A - 50"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 50 inches</li>
+                                                                                <li>Power Consuption: 160w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 3840 * 2160</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 77.5*12.3*47.5cm</li>
+                                                                                <li>Weight: 4.5KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI55DV6A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI55DV6A - 55"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 55 inches</li>
+                                                                                <li>Power Consuption: 160w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 3840 * 2160</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 775*123*475mm</li>
+                                                                                <li>Weight: 20KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI65DF1A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <div className="fw-bold text-center"></div>
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI65DV6A - 65"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 65 inches</li>
+                                                                                <li>Power Consuption: 190w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 3840 * 2160</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 875*183*515mm</li>
+                                                                                <li>Weight: 25KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI75DF1A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI75DF1A - 75"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 75 inches</li>
+                                                                                <li>Power Consuption: 220w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 3840 * 2160</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 895*220*575cm</li>
+                                                                                <li>Weight: 28KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       <MDBCol md="4" className="mb-4">
+                                                            <MDBCard className="text-dark">
+                                                                 <MDBCardImage
+                                                                      src={MI85DV3A}
+                                                                      position="top"
+                                                                      alt=""
+                                                                 />
+                                                                 <MDBCardBody>
+                                                                      <div className="text-center mt-1">
+                                                                           <MDBCardTitle className="h4">MI85DV3A - 85"</MDBCardTitle>
+                                                                      </div>
+                                                                      <div className="text-center">
+                                                                           <div
+                                                                                className="p-3 mx-n3 mb-4"
+                                                                                style={{ backgroundColor: "#eff1f2" }}
+                                                                           >
+                                                                                <h5 className="mb-0">Specification</h5>
+                                                                           </div>
+
+                                                                           <div className="d-flex flex-column mb-4 text-start">
+                                                                                <li>Dimensions: 85 inches</li>
+                                                                                <li>Power Consuption: 250w</li>
+                                                                                <li>Power Input 100 - 240v ~ 50/60HZ</li>
+                                                                                <li>Power Saving: {'<'} 0.5W</li>
+                                                                                <li>Aspect ratio: 16:9</li>
+                                                                                <li>Resolving power: 3840 * 2160</li>
+                                                                                <li>Sound system: B/G,D/K,I</li>
+                                                                                <li>Video input: PAL,SECAM, NTSC</li>
+                                                                                <li>Size: 985*275*610mm</li>
+                                                                                <li>Weight: 32KG</li>
+                                                                           </div>
+                                                                      </div>
+                                                                 </MDBCardBody>
+                                                            </MDBCard>
+                                                       </MDBCol>
+                                                       {/* <MDBCol md="4" className="mb-4">
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI50DF1A}
@@ -133,10 +399,8 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI75DV6A}
@@ -148,55 +412,8 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI43DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI43DV6A - 43"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI55DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI55DV6A - 55"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI32DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI32DV6A - 32"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI32DF1A}
@@ -208,70 +425,8 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI65DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI65DV6A - 65"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI75DF1A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI75DF1A - 75"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI85DV3A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI85DV3A - 85"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
-                                                                 <MDBCard className="text-dark">
-                                                                      <MDBCardImage
-                                                                           src={MI24DV6A}
-                                                                           position="top"
-                                                                           alt=""
-                                                                      />
-                                                                      <div className="fw-bold text-center">MI24DV6A - 24"</div>
-                                                                      <MDBCardBody>
-                                                                           a
-                                                                      </MDBCardBody>
-                                                                 </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
-                                                       <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI65DF1A}
@@ -283,10 +438,8 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI55DF1A}
@@ -298,10 +451,8 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
                                                        </MDBCol>
                                                        <MDBCol md="4" className="mb-4">
-                                                            <a href='/televisions'>
                                                                  <MDBCard className="text-dark">
                                                                       <MDBCardImage
                                                                            src={MI43DF1A}
@@ -313,8 +464,7 @@ export default function Products() {
                                                                            a
                                                                       </MDBCardBody>
                                                                  </MDBCard>
-                                                            </a>
-                                                       </MDBCol>
+                                                       </MDBCol> */}
                                                   </MDBRow>
                                              </td>
                                         </tr>
